@@ -1,6 +1,8 @@
 import os
+import sys
+import argparse
 from typing import List
-from data import load_stories, SAMPLE_USER
+from data import get_stories, SAMPLE_USERS
 from recommendation_agent import RecommendationAgent
 from evaluation_agent import EvaluationAgent
 from prompt_optimizer import PromptOptimizer
@@ -9,24 +11,39 @@ import json
 from datetime import datetime
 
 def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Generate story recommendations for a specific user profile.')
+    parser.add_argument('--user', type=str, default='USER_1', 
+                       choices=['USER_1', 'USER_2', 'USER_3'],
+                       help='User profile to generate recommendations for (default: USER_1)')
+    args = parser.parse_args()
+    
+    # Get the selected user profile
+    user_profile = SAMPLE_USERS[args.user]
+    print(f"\nGenerating recommendations for {args.user}")
+    print(f"Preferences: {user_profile.preferences}")
+    print(f"Interests: {', '.join(user_profile.interests)}")
+    print(f"Favorite Anime: {', '.join(user_profile.favorite_anime)}")
+    print(f"Preferred Tags: {', '.join(user_profile.preferred_tags)}\n")
+    
     # Load stories
-    stories = load_stories()
+    stories = get_stories()
     print(f"Loaded {len(stories)} stories")
     
     # Initialize agents
     evaluation_agent = EvaluationAgent(stories)
     recommendation_agent = RecommendationAgent(stories)
-    prompt_optimizer = PromptOptimizer(stories, SAMPLE_USER)
+    prompt_optimizer = PromptOptimizer(stories, user_profile)
     
     # Get ground truth recommendations
     print("\nGenerating ground truth recommendations...")
-    ground_truth_ids = evaluation_agent.get_ground_truth_recommendations(SAMPLE_USER)
+    ground_truth_ids = evaluation_agent.get_ground_truth_recommendations(user_profile)
     print(f"Ground truth recommendations: {ground_truth_ids}")
     
     # Optimization parameters
-    TARGET_SCORE = 0.8  # Increased target score
-    TIME_BUDGET_MINUTES = 10  # Increased time budget
-    MAX_ITERATIONS = 15  # Increased max iterations
+    TARGET_SCORE = 0.9  # Increased target score
+    TIME_BUDGET_MINUTES = 15  # Increased time budget
+    MAX_ITERATIONS = 25  # Increased max iterations
     
     print(f"\nStarting optimization with:")
     print(f"Target score: {TARGET_SCORE}")
@@ -43,11 +60,11 @@ def main():
     
     # Get final recommendations using best prompt
     print("\nGetting final recommendations...")
-    final_recommendations = recommendation_agent.get_recommendations(SAMPLE_USER, best_prompt)
+    final_recommendations = recommendation_agent.get_recommendations(user_profile, best_prompt)
     final_score, feedback = evaluation_agent.evaluate_recommendations(
         final_recommendations, 
         ground_truth_ids,
-        user_profile=SAMPLE_USER
+        user_profile=user_profile
     )
     
     # Print results
@@ -65,9 +82,10 @@ def main():
     
     # Save optimization history
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    history_file = f"optimization_history_{timestamp}.json"
+    history_file = f"optimization_history_{args.user}_{timestamp}.json"
     with open(history_file, 'w') as f:
         json.dump({
+            'user_profile': args.user,
             'timestamp': timestamp,
             'target_score': TARGET_SCORE,
             'time_budget': TIME_BUDGET_MINUTES,

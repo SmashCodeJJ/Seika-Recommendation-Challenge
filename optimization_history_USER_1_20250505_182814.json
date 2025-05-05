@@ -1,0 +1,28 @@
+{
+  "user_profile": "USER_1",
+  "timestamp": "20250505_182814",
+  "target_score": 0.8,
+  "time_budget": 10,
+  "max_iterations": 15,
+  "best_score": 0,
+  "final_score": 0,
+  "optimization_history": [],
+  "final_recommendations": [
+    "765432",
+    "431097",
+    "241908",
+    "528913",
+    "374921",
+    "910234",
+    "189354",
+    "763245",
+    "714509",
+    "438921"
+  ],
+  "feedback": [
+    "The recommendations have low precision. Consider better matching user preferences.",
+    "The recommendations are missing many relevant stories. Consider broader matching criteria.",
+    "Consider including more stories related to the user's favorite anime.",
+    "The recommendations could better cover the user's preferred tags."
+  ]
+}
