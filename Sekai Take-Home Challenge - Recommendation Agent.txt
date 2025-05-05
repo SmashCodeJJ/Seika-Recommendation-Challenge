@@ -1,0 +1,87 @@
+Sekai Take-Home Challenge
+Build a tiny squad of AI agents that learns to recommend the right stories to the right fans—exactly what you’ll do with us in production!
+________________
+
+
+1 / Mission
+Write code that iterates on a recommendation prompt until it consistently picks 10 highly-relevant Sekai stories for a user, given:
+* 5 sample Sekai stories (below).
+Use these as seed data—expand to ≈ 100 stories with an LLM of your choice.
+
+* 1 full user profiles (below). we will create another user profiles to test it at the end.
+
+
+You’re free to choose any multi-agent framework, model stack, or hosting setup.
+________________
+
+
+2 / High-level Flow to Implement
+Agent:Prompt-Optimizer. Purpose:Proposes prompt tweaks based on prior evaluations. Model Guidance:Any model you like.
+
+Agent:Recommendation Agent. Purpose:Returns 10 story IDs for a simulated new user. Must be fast. Model Guidance:GPT-3.5-turbo 
+
+Agent:Evaluation Agent. Purpose:(1). Read a full user profile. (2). Simulates the tags that user would tick on Sekai’s first screen.
+(3). Feeds those simulated tags to the Recommendation Agent. (4). Computes an eval score against “ground-truth” recommendations produced directly from the full profile. 
+Model Guidance: GPT-3.5-turbo
+
+	
+		
+
+Orchestrate them in an autonomous loop: optimize → recommend → evaluate → feedback → repeat until you hit a self-chosen score or time budget.
+________________
+
+
+3 / Ground Truth & Scoring
+   * Ground-truth list: Ask your Evaluation Agent to recommend directly from the full profile + full story pool.
+
+   * Metric: Pick something sensible (e.g., precision@10, mean-recall, semantic overlap). Tell us why.
+
+   * Target: Stop when your metric plateaus or time runs out.
+________________
+
+
+4 / Data Provided
+4.1 Sample User Profiles
+(Use these as “truth” examples; create more if useful.)
+USER 1
+choice-driven high-agency dominant protector strategist; underdog, rivalry, team-vs-team, hero-vs-villain, internal-struggle, tournament conflicts; master-servant, royalty-commoner, captor-captive power-dynamics; high-immersion lore-expander, community-engagement; power-fantasy, moral-ambiguity; isekai escapism; romance, forbidden-love, love-triangles, found-family, reverse-harem; enemies-to-lovers, slow-burn; reincarnation, devil-powers, jujitsu-sorcerer; betrayal, loyalty, survival, redemption; Naruto, Dragon Ball, Jujutsu-Kaisen, Genshin-Impact, One-Piece, Demon-Slayer, Chainsaw-Man, Marvel/DC; crossover, anti-hero, strategy, fan-groups.
+
+
+
+
+________________
+
+
+4.2 Sample Sekai Stories (use as seed data)
+ID: 217107
+Title: Stranger Who Fell From The Sky
+Intro: You are Devin, plummeting towards Orario with no memory of how you got here...
+Tags: danmachi, reincarnation, heroic aspirations, mystery origin, teamwork, loyalty, protectiveness
+
+
+ID: 273613
+Title: Trapped Between Four Anime Legends!
+Intro: You're caught in a dimensional rift with four anime icons. Goku wants to spar...
+Tags: crossover, jujutsu kaisen, dragon ball, naruto, isekai, dimensional travel, reverse harem
+
+
+ID: 235701
+Title: New Transfer Students vs. Class 1-A Bully
+Intro: You and Zeroku watch in disgust as Bakugo torments Izuku again...
+Tags: my hero academia, challenging authority, bullying, underdog, disruptors
+
+
+ID: 214527
+Title: Zenitsu Touched Your Sister's WHAT?!
+Intro: Your peaceful afternoon at the Butterfly Estate shatters when Zenitsu accidentally gropes Nezuko...
+Tags: demon slayer, protective instincts, comedic panic, violent reactions
+
+
+ID: 263242
+Title: Principal's Daughter Dating Contest
+Intro: You are Yuji Itadori, facing off against Tanjiro and Naruto for Ochako's heart...
+Tags: crossover, romantic comedy, forced proximity, harem, dating competition
+Feel free to synthesize more stories or users to stress-test your agents.
+________________
+
+
