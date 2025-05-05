@@ -1,6 +1,6 @@
 {
   "user_profile": "USER_3",
-  "timestamp": "20250505_185043",
+  "timestamp": "20250505_192216",
   "target_score": 0.9,
   "time_budget": 15,
   "max_iterations": 25,
@@ -16,10 +16,10 @@
   "final_recommendations": [
     "458921",
     "510379",
-    "376894",
     "531786",
     "573219",
     "347902",
+    "376894",
     "879532",
     "273613",
     "574312",

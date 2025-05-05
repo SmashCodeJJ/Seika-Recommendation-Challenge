@@ -63,1333 +63,1343 @@
     ]
   },
   {
-    "id": "458923",
+    "id": "541289",
     "title": "Shadows of Destiny",
-    "intro": "In the heart of the mystical Kingdom of Arkania, the prestigious Tournament of the Arcane gathers the most skilled magic users from across realms...",
+    "intro": "In the prestigious halls of Akatsuki Academy, two students, Akari and Ren, find themselves at odds in a fierce rivalry that could determine their fates...",
     "tags": [
-      "magic",
-      "tournament arc",
+      "academy life",
       "rivalry",
+      "supernatural abilities",
+      "destiny",
+      "underdog",
+      "friendship",
+      "competition"
+    ]
+  },
+  {
+    "id": "865431",
+    "title": "Moonlit Melodies",
+    "intro": "At the Moonbeam Cafe, where humans and supernatural beings gather, Mia, a talented musician, finds her heart pulled towards a mysterious vampire patron...",
+    "tags": [
+      "cafe life",
+      "supernatural romance",
+      "music",
+      "vampires",
+      "forbidden love",
+      "mystery",
+      "enchantment"
+    ]
+  },
+  {
+    "id": "324765",
+    "title": "Crown of Shadows",
+    "intro": "In the fallen kingdom of Lumina, a lone survivor, Prince Lysander, embarks on a journey to reclaim his throne and confront the dark forces that brought his kingdom to ruin...",
+    "tags": [
       "fantasy kingdom",
       "redemption",
-      "power fantasy",
-      "teamwork"
-    ]
-  },
-  {
-    "id": "765210",
-    "title": "Moonlit Serenade Cafe",
-    "intro": "Welcome to Moonlit Serenade Cafe, where the aroma of freshly brewed spells mingles with the whispers of ghosts and the laughter of fae...",
-    "tags": [
-      "supernatural romance",
-      "cafe",
-      "found family",
-      "forbidden love",
-      "supernatural beings",
+      "royalty",
+      "magic",
+      "betrayal",
       "legacy",
-      "mystery"
+      "courage"
     ]
   },
   {
-    "id": "531786",
-    "title": "Scarlet Academy Chronicles",
-    "intro": "At Scarlet Academy, where ancient bloodlines and hidden powers clash, a group of unlikely heroes must navigate treacherous waters to uncover their true destinies...",
+    "id": "970245",
+    "title": "Echoes of Eclipse",
+    "intro": "As a reluctant guardian of the young prodigy Leo, Maya must navigate a world of hidden powers and ancient curses while uncovering the secrets of her own royal lineage...",
     "tags": [
-      "academy",
-      "supernatural beings",
-      "underdog",
-      "rivalry",
-      "redemption",
-      "found family",
-      "epic conclusions"
-    ]
-  },
-  {
-    "id": "294615",
-    "title": "Stars Align",
-    "intro": "In a world where star-crossed lovers are cursed to never meet, two souls must defy destiny to rewrite the constellations that bind them...",
-    "tags": [
-      "forbidden love",
-      "supernatural romance",
-      "power imbalance",
-      "redemption",
-      "fantasy",
-      "underdog",
+      "guardian",
+      "magic",
+      "legacy",
+      "hidden powers",
+      "secrets",
+      "mentorship",
       "fate"
     ]
   },
   {
-    "id": "879532",
-    "title": "Azure Skies",
-    "intro": "When the azure skies darken with the shadows of an ancient evil, a reluctant hero must embrace their destiny to protect the realm from impending doom...",
+    "id": "509876",
+    "title": "Scarlet Shadows",
+    "intro": "In a world where nine-tailed foxes roam, Kaede, a young warrior with a tragic past, forms an unlikely bond with a mischievous fox spirit, leading to a journey of redemption and self-discovery...",
     "tags": [
-      "underdog",
-      "reluctant hero",
-      "supernatural",
+      "supernatural beings",
+      "redemption",
+      "found family",
+      "folklore",
+      "inner demons",
+      "bond",
+      "adventure"
+    ]
+  },
+  {
+    "id": "123789",
+    "title": "Mirage Academy",
+    "intro": "At Mirage Academy, where students harness supernatural abilities, new student Aiden must navigate the challenges of power, friendship, and the looming threat of dark forces...",
+    "tags": [
+      "academy life",
+      "supernatural abilities",
+      "teamwork",
+      "dark forces",
+      "friendship",
+      "power struggle",
+      "secrets"
+    ]
+  },
+  {
+    "id": "657342",
+    "title": "Starlit Sins",
+    "intro": "In the moonlit city of Nephilim, where angels and demons coexist, a forbidden romance blooms between Celeste, an angelic healer, and Dante, a demon with a dark past...",
+    "tags": [
+      "supernatural romance",
+      "forbidden love",
+      "angels and demons",
+      "secrets",
+      "destiny",
+      "love triangle",
+      "temptation"
+    ]
+  },
+  {
+    "id": "235467",
+    "title": "Phoenix Rising",
+    "intro": "As the last of the Phoenix clan, Ryo must embrace his role as a dominant protector to save his people from a looming threat, all while uncovering the secrets of his ancestry...",
+    "tags": [
+      "dominant protector",
+      "legacy",
+      "supernatural powers",
+      "family",
+      "destiny",
+      "sacrifice",
+      "bravery"
+    ]
+  },
+  {
+    "id": "789012",
+    "title": "Celestial Bonds",
+    "intro": "When a comet crashes into the small town of Evergreen, Luna discovers she has the power to control celestial magic, leading her on a journey of self-discovery and forging bonds with unlikely allies...",
+    "tags": [
+      "supernatural powers",
+      "destiny",
+      "friendship",
+      "magic",
+      "self-discovery",
+      "celestial beings",
+      "adventure"
+    ]
+  },
+  {
+    "id": "456789",
+    "title": "Eden's Promise",
+    "intro": "In the post-apocalyptic world of Eden, Kira, a former soldier burdened by guilt, must confront her past and protect her newfound family from the shadows that threaten their fragile existence...",
+    "tags": [
+      "trauma healing",
+      "found family",
+      "survival",
+      "guilt",
+      "post-apocalyptic",
+      "protection",
+      "inner demons"
+    ]
+  },
+  {
+    "id": "654321",
+    "title": "Arcane Blades",
+    "intro": "When a betrayal tears apart the legendary Arcane Blades, former allies Aria and Rei must confront their past mistakes and work together to redeem their honor in the eyes of their comrades...",
+    "tags": [
+      "betrayal",
+      "redemption",
+      "teamwork",
+      "honor",
       "rivalry",
-      "epic conclusions",
-      "protector",
+      "legendary warriors",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "213456",
+    "title": "Midnight Rose",
+    "intro": "In the haunted halls of Midnight Academy, where dark secrets lie buried, Elara must confront her past and unravel the mysteries surrounding her unique powers, all while forging bonds with her fellow students...",
+    "tags": [
+      "academy life",
+      "supernatural abilities",
+      "dark secrets",
+      "mystery",
+      "past",
+      "friendship",
+      "haunted"
+    ]
+  },
+  {
+    "id": "987654",
+    "title": "Silver Serenade",
+    "intro": "As a member of the elite Phantom Serenade orchestra, Elise must navigate the treacherous world of music, magic, and rival ensembles, all while uncovering the dark legacy of her family's past...",
+    "tags": [
+      "music",
+      "magic",
+      "rivalry",
+      "legacy",
+      "orchestras",
+      "secrets",
+      "competition"
+    ]
+  },
+  {
+    "id": "345678",
+    "title": "Azure Skies",
+    "intro": "In the floating city of Aetheria, where airships soar and magic flows, Kael must embrace his role as a protector and lead his team to victory in the prestigious Skyborne Tournament, all while facing his inner demons...",
+    "tags": [
+      "power fantasy",
+      "tournament arc",
+      "magic",
+      "teamwork",
+      "victory",
+      "skyborne",
+      "inner demons"
+    ]
+  },
+  {
+    "id": "876543",
+    "title": "Crimson Chronicles",
+    "intro": "When a forbidden flame awakens within young sorcerer Lyra, she must navigate a world of ancient prophecies, rival sorcerers, and a love that could shake the foundations of their society...",
+    "tags": [
+      "power imbalance",
+      "forbidden love",
+      "sorcery",
+      "prophecies",
+      "rival sorcerers",
+      "society",
+      "destiny"
+    ]
+  },
+  {
+    "id": "421903",
+    "title": "Shadowed Legacy",
+    "intro": "As the moonlight shrouds the ancient Academy of Celestia, you, a rookie competitor, must navigate the treacherous arena of the Nightfall Tournament to uncover your hidden royal lineage...",
+    "tags": [
+      "academy",
+      "tournament arc",
+      "supernatural beings",
+      "hidden identity",
+      "rivalry",
+      "legacy",
       "redemption"
     ]
   },
   {
-    "id": "146789",
-    "title": "Crimson Moonlight",
-    "intro": "In the land of eternal twilight, a mysterious figure with the power of the nine-tailed fox must navigate a web of ancient prophecies and dark desires...",
+    "id": "879124",
+    "title": "Crimson Eclipse Cafe",
+    "intro": "Welcome to the mystical Crimson Eclipse Cafe where supernaturals and humans coexist peacefully, but when a forbidden romance brews between a vampire barista and a werewolf regular, the delicate balance is put to the test...",
     "tags": [
-      "supernatural",
-      "nine-tailed fox",
-      "found family",
-      "intense angst",
-      "dominant protector",
-      "forbidden desires",
-      "mystery"
-    ]
-  },
-  {
-    "id": "328456",
-    "title": "Celestial Bonds",
-    "intro": "Welcome to Celestial Bonds Academy, where students with celestial blood must navigate a world of politics, power struggles, and forbidden love...",
-    "tags": [
-      "academy",
-      "celestial beings",
+      "cafe",
+      "supernatural romance",
       "forbidden love",
-      "power imbalance",
-      "rival advances",
-      "legacy",
-      "supernatural"
+      "vampires",
+      "werewolves",
+      "balance",
+      "community"
     ]
   },
   {
-    "id": "574312",
-    "title": "Emberfall Chronicles",
-    "intro": "In the fiery kingdom of Emberfall, a reluctant guardian must protect the heir to the throne while grappling with their own dark past and hidden powers...",
+    "id": "536702",
+    "title": "Starfall Chronicles",
+    "intro": "In the fantastical kingdom of Astraea, you, a dominant protector, must lead a band of underdogs to confront the looming threat of the Revenant Rebellion, as dark secrets unravel and found-family bonds are tested...",
     "tags": [
       "fantasy kingdom",
-      "reluctant guardian",
-      "redemption",
-      "supernatural",
-      "found family",
-      "dark past",
-      "epic conclusions"
-    ]
-  },
-  {
-    "id": "910234",
-    "title": "Whispering Winds",
-    "intro": "At Whispering Winds Academy, where whispers carry secrets and enchantments paint the sky, a group of young enchanters must navigate a world of magic, betrayal, and forbidden desires...",
-    "tags": [
-      "academy",
-      "magic",
-      "betrayal",
-      "forbidden desires",
-      "supernatural",
       "underdog",
-      "romance"
-    ]
-  },
-  {
-    "id": "123456",
-    "title": "Phoenix Rising",
-    "intro": "In the ashes of a fallen kingdom, a group of lost souls must rise from the ashes of their past mistakes to forge a new future filled with hope, redemption, and newfound alliances...",
-    "tags": [
-      "redemption",
-      "fallen kingdom",
+      "dominant protector",
+      "rebellion",
+      "secrets",
       "found family",
-      "betrayal",
-      "supernatural",
-      "epic conclusions",
       "loyalty"
     ]
   },
   {
-    "id": "325801",
-    "title": "Shadows of the Nine Realms",
-    "intro": "In the mystical land of Valoria, where magic flows through every living being, you awaken with a dormant power waiting to be unleashed...",
+    "id": "305746",
+    "title": "Ethereal Academy",
+    "intro": "At the renowned Ethereal Academy, a reluctant hero discovers their latent magical abilities, diving into a world of intense angst and trauma healing while navigating through morally flexible challenges and supernatural encounters...",
+    "tags": [
+      "academy",
+      "supernatural beings",
+      "trauma healing",
+      "intense angst",
+      "magic",
+      "morals",
+      "reluctant hero"
+    ]
+  },
+  {
+    "id": "617235",
+    "title": "Moonlit Embrace",
+    "intro": "Amidst the moonlit streets of Eclipsia City, a forbidden romance blossoms between a cursed prince and a commoner, as they grapple with their forbidden desires while rival advances threaten to tear them apart...",
+    "tags": [
+      "supernatural romance",
+      "forbidden love",
+      "cursed prince",
+      "rivalry",
+      "desires",
+      "moonlit",
+      "city life"
+    ]
+  },
+  {
+    "id": "943512",
+    "title": "Celestial Champions",
+    "intro": "Embark on a journey of epic proportions as you, the last scion of an ancient bloodline, navigate the cutthroat world of supernatural combat to unlock your true potential and uncover the secrets of your family's legacy...",
+    "tags": [
+      "supernatural beings",
+      "epic journey",
+      "bloodline",
+      "legacy",
+      "secrets",
+      "supernatural combat",
+      "champion"
+    ]
+  },
+  {
+    "id": "208349",
+    "title": "Silvermoon Guardians",
+    "intro": "In the shadow of the Silvermoon Academy, a group of fallen heroes seeks redemption as they confront their past mistakes and face a formidable enemy in a high-stakes tournament that will test their loyalties and resolve...",
+    "tags": [
+      "academy",
+      "redemption arc",
+      "fallen heroes",
+      "past mistakes",
+      "tournament",
+      "loyalty",
+      "enemies"
+    ]
+  },
+  {
+    "id": "572618",
+    "title": "Stellar Sentinels",
+    "intro": "Join the Stellar Sentinels, a team of intergalactic heroes, as they navigate a universe of betrayal and survival, forming unlikely alliances and unraveling cosmic mysteries in a quest for redemption and justice...",
+    "tags": [
+      "power fantasy",
+      "intergalactic",
+      "heroes",
+      "betrayal",
+      "survival",
+      "cosmic mysteries",
+      "justice"
+    ]
+  },
+  {
+    "id": "127840",
+    "title": "Azure Skies Academy",
+    "intro": "At Azure Skies Academy, where magic thrives and rivalries simmer, a forbidden love ignites between a prodigious sorcerer and a mysterious newcomer, testing the boundaries of power and passion in a world teetering on the brink of war...",
+    "tags": [
+      "academy",
+      "supernatural romance",
+      "forbidden love",
+      "sorcerer",
+      "rivalry",
+      "power dynamics",
+      "war"
+    ]
+  },
+  {
+    "id": "695432",
+    "title": "Eclipse Manor",
+    "intro": "Within the halls of Eclipse Manor, a legendary relic stirs dark forces, prompting a reluctant guardian to face forgotten truths and embrace their hidden royal lineage before ancient rivalries resurface and threaten the fragile balance of power...",
     "tags": [
       "fantasy kingdom",
-      "supernatural beings",
-      "magic",
-      "hidden legacy",
-      "rivalry",
-      "redemption",
-      "power fantasy"
+      "guardian",
+      "royal lineage",
+      "dark forces",
+      "ancient rivalries",
+      "balance",
+      "hidden truths"
     ]
   },
   {
-    "id": "468932",
-    "title": "Moonlit Cafe Secrets",
-    "intro": "As a regular at the Moonlight Cafe, you discover that beneath the cozy atmosphere lies a world of supernatural beings and forbidden romances...",
+    "id": "384906",
+    "title": "Nightshade Chronicles",
+    "intro": "In the cursed realm of Nightshade, where shadows whisper of ancient secrets and blood moon rituals, a team of enigmatic sorcerers must navigate treacherous alliances and forbidden desires to uncover the truth behind a looming betrayal...",
     "tags": [
-      "cafe slice-of-life",
-      "supernatural romance",
-      "hidden desires",
-      "secrets",
-      "rival advances",
-      "forbidden love",
-      "found family"
+      "supernatural beings",
+      "cursed realm",
+      "sorcerers",
+      "ancient secrets",
+      "betrayal",
+      "alliances",
+      "blood moon"
     ]
   },
   {
-    "id": "517209",
-    "title": "Legacy of the Eclipse Academy",
-    "intro": "Welcome to Eclipse Academy, where students with unique abilities train to become the next generation of protectors in a world filled with ancient curses and rivalries...",
+    "id": "549720",
+    "title": "Crescent Moon Cafe",
+    "intro": "At the enchanting Crescent Moon Cafe, where magic-infused treats tantalize the senses, a forbidden romance brews between a witch barista and a human patron, entwining their fates in a delicate dance of secrets and rival advances...",
+    "tags": [
+      "cafe",
+      "supernatural romance",
+      "forbidden love",
+      "witch",
+      "patron",
+      "magic-infused",
+      "secrets"
+    ]
+  },
+  {
+    "id": "217305",
+    "title": "Shadowflame Academy",
+    "intro": "Within the hallowed halls of Shadowflame Academy, a group of unlikely heroes must rise from the ashes of defeat to challenge the tyrannical rule of a fallen leader, forging bonds of loyalty and courage amidst the chaos of war and betrayal...",
+    "tags": [
+      "academy",
+      "heroes",
+      "conquest",
+      "fallen leader",
+      "loyalty",
+      "war",
+      "betrayal"
+    ]
+  },
+  {
+    "id": "978102",
+    "title": "Stellar Guardians",
+    "intro": "The Stellar Guardians, a band of cosmic outcasts, embark on a perilous quest to unlock the secrets of the Celestial Convergence, facing enemies and challenges that test their resolve and loyalty, as they strive to rewrite their destinies...",
+    "tags": [
+      "power fantasy",
+      "cosmic",
+      "outcasts",
+      "secrets",
+      "convergence",
+      "challenges",
+      "loyalty"
+    ]
+  },
+  {
+    "id": "435976",
+    "title": "Twilight Haven",
+    "intro": "At Twilight Haven, a sanctuary for lost souls and wayward spirits, a reluctant hero must confront their inner demons and navigate a world of morally flexible choices to protect their found family, as dark shadows of the past threaten to consume them...",
+    "tags": [
+      "supernatural",
+      "sanctuary",
+      "lost souls",
+      "hero",
+      "inner demons",
+      "found family",
+      "dark shadows"
+    ]
+  },
+  {
+    "id": "539821",
+    "title": "Shadows of Destiny",
+    "intro": "In the prestigious Arcane Academy, where magic reigns supreme, two rival students, Lyra and Kael, are destined to clash in the ultimate magical tournament...",
+    "tags": [
+      "academy life",
+      "magical rivalry",
+      "supernatural powers",
+      "tournament arc",
+      "underdog",
+      "destiny",
+      "friendship"
+    ]
+  },
+  {
+    "id": "690324",
+    "title": "Moonlit Melodies",
+    "intro": "Luna inherits a quaint cafe that serves as a meeting place for supernatural beings seeking solace. When she falls for a ghostly patron, she must navigate the mysteries of love beyond the veil...",
+    "tags": [
+      "supernatural romance",
+      "cafe life",
+      "ghosts",
+      "forbidden love",
+      "hidden desires",
+      "supernatural beings",
+      "legacy"
+    ]
+  },
+  {
+    "id": "415723",
+    "title": "Crown of Thorns",
+    "intro": "Princess Elara discovers a dark secret within the royal court, leading her to question her loyalty and embark on a journey of redemption to save her kingdom from treacherous forces...",
+    "tags": [
+      "fantasy kingdom",
+      "royal betrayal",
+      "redemption arc",
+      "royalty",
+      "betrayal",
+      "forbidden desires",
+      "supernatural powers"
+    ]
+  },
+  {
+    "id": "836472",
+    "title": "Starfall Legacy",
+    "intro": "As the reluctant guardian of a powerful artifact, Ren must navigate a world of rival factions and hidden legacies while protecting his charge from those who seek to exploit its power...",
+    "tags": [
+      "reluctant guardian",
+      "hidden legacy",
+      "power imbalance",
+      "supernatural beings",
+      "rival factions",
+      "protective duty",
+      "supernatural powers"
+    ]
+  },
+  {
+    "id": "193568",
+    "title": "Cursed Constellations",
+    "intro": "At the prestigious Occult Academy, where curses and dark magic thrive, a group of misfit students must band together to uncover the truth behind a series of mysterious disappearances...",
     "tags": [
       "academy life",
       "supernatural beings",
-      "rivalries",
-      "power imbalance",
-      "hidden legacy",
-      "redemption",
-      "team-vs-team"
+      "cursed artifacts",
+      "found family",
+      "dark magic",
+      "mystery",
+      "teamwork"
     ]
   },
   {
-    "id": "693754",
-    "title": "Blood Moon Redemption",
-    "intro": "In the dark realm of Nokturna, where vampires rule the night, you must navigate a web of betrayal and loyalty to uncover the truth behind your own past...",
+    "id": "742615",
+    "title": "Blood Moon Reverie",
+    "intro": "In a world where vampires and humans coexist uneasily, a forbidden romance blooms between a vampire noble and a human servant, testing the boundaries of love and loyalty...",
     "tags": [
       "supernatural romance",
       "vampires",
-      "betrayal",
+      "forbidden love",
+      "noble-commoner dynamics",
+      "love triangle",
       "loyalty",
-      "hidden past",
-      "redemption",
-      "forbidden love"
+      "moral ambiguity"
     ]
   },
   {
-    "id": "847516",
-    "title": "Starfall Chronicles",
-    "intro": "As a newly enrolled student at the prestigious Academy of Sorcery, you must navigate the treacherous waters of magical academia while uncovering the secrets of your own forbidden lineage...",
+    "id": "308754",
+    "title": "Echoes of Eternity",
+    "intro": "The Tournament of Heroes gathers the most powerful warriors from across realms, including former enemies Akira and Rei, now forced to fight as allies against a common foe...",
+    "tags": [
+      "tournament arc",
+      "power fantasy",
+      "hero vs. villain",
+      "team vs. team",
+      "enemies turned allies",
+      "epic battles",
+      "redemption"
+    ]
+  },
+  {
+    "id": "927168",
+    "title": "Celestial Crossroads",
+    "intro": "A powerful protector, Cassius, finds his loyalties tested when a mysterious figure from his past resurfaces, forcing him to confront the shadows of his own history...",
+    "tags": [
+      "dominant protector",
+      "loyalty",
+      "past sins",
+      "protective sibling loyalty",
+      "redemption arc",
+      "moral ambiguity",
+      "supernatural powers"
+    ]
+  },
+  {
+    "id": "541892",
+    "title": "Veil of Shadows",
+    "intro": "In a world where darkness threatens to consume all, a reluctant hero must embrace his destiny and awaken the power of the legendary Phoenix Blade to bring light back to the realm...",
+    "tags": [
+      "underdog",
+      "reluctant hero",
+      "legacy",
+      "supernatural beings",
+      "epic conclusion",
+      "power imbalance",
+      "redemption"
+    ]
+  },
+  {
+    "id": "609287",
+    "title": "Crimson Eclipse",
+    "intro": "When a group of survivors must face their former captors in a deadly arena, alliances will be tested, betrayals will be revealed, and only the strongest will emerge victorious...",
+    "tags": [
+      "survival",
+      "betrayal",
+      "loyalty",
+      "captivity",
+      "team vs. team",
+      "intense angst",
+      "guilt"
+    ]
+  },
+  {
+    "id": "298176",
+    "title": "Azure Wings",
+    "intro": "A cursed individual, reborn with the power of the legendary Phoenix, must navigate a world of deceit and treachery to uncover the truth behind their past and forge a new path forward...",
+    "tags": [
+      "reincarnation",
+      "cursed destiny",
+      "supernatural powers",
+      "betrayal",
+      "redemption arc",
+      "found family",
+      "intense angst"
+    ]
+  },
+  {
+    "id": "754390",
+    "title": "Twilight Veil",
+    "intro": "In the shadowed streets of Veil City, two rival factions, led by heirs to ancient bloodlines, clash in a battle of power and pride that will determine the city's fate...",
+    "tags": [
+      "rivalry",
+      "power struggle",
+      "supernatural beings",
+      "legacy",
+      "forbidden desires",
+      "intense competition",
+      "moral ambiguity"
+    ]
+  },
+  {
+    "id": "126543",
+    "title": "Lunar Serenade",
+    "intro": "When a celestial event unites two souls from different worlds, they must navigate a forbidden love that challenges fate itself, as cosmic forces conspire to keep them apart...",
+    "tags": [
+      "forbidden love",
+      "cosmic destiny",
+      "romance",
+      "supernatural beings",
+      "love triangle",
+      "fate",
+      "star-crossed lovers"
+    ]
+  },
+  {
+    "id": "438290",
+    "title": "Arcane Elegy",
+    "intro": "As the last descendant of an ancient bloodline, Alaric must confront the darkness within himself to unlock his true potential and prevent a malevolent force from plunging the world into chaos...",
+    "tags": [
+      "supernatural powers",
+      "ancient bloodline",
+      "dark legacy",
+      "power imbalance",
+      "epic conclusion",
+      "redemption arc",
+      "moral flexibility"
+    ]
+  },
+  {
+    "id": "325698",
+    "title": "Shadow Academy",
+    "intro": "In the shadows of the prestigious Shadow Academy, where students train in magic and combat, you, an underdog with mysterious powers, find yourself embroiled in a rivalry with a fellow student vying for the top spot...",
+    "tags": [
+      "academy life",
+      "magic",
+      "rivalry",
+      "underdog",
+      "supernatural",
+      "power struggle",
+      "hidden potential"
+    ]
+  },
+  {
+    "id": "784513",
+    "title": "Moonlit Melodies",
+    "intro": "Welcome to the Moonlit Melodies cafe, hidden away in the heart of the city, where supernatural beings gather under the moonlight to enjoy music, coffee, and forbidden romances...",
+    "tags": [
+      "cafe",
+      "supernatural",
+      "romance",
+      "forbidden love",
+      "night atmosphere",
+      "music",
+      "hidden identities",
+      "magical ambiance"
+    ]
+  },
+  {
+    "id": "207846",
+    "title": "Reign of Shadows",
+    "intro": "As a descendant of the fallen royal family, you must navigate the treacherous politics of the shadow kingdom, facing enemies-turned-allies and uncovering the secrets of your lineage for redemption...",
+    "tags": [
+      "fantasy kingdom",
+      "royalty",
+      "legacy",
+      "political intrigue",
+      "redemption",
+      "hidden truths",
+      "power struggle",
+      "dynasty"
+    ]
+  },
+  {
+    "id": "659832",
+    "title": "Starcrossed Seraphim",
+    "intro": "At the Celestial Academy, where celestial beings train to protect the realms, you, a reluctant hero with a dark past, forge bonds with a group of misfits to uncover the truth behind an ancient prophecy...",
     "tags": [
       "academy life",
       "supernatural beings",
-      "magic",
-      "forbidden lineage",
-      "rivalry",
-      "redemption",
-      "hidden desires"
+      "reluctant hero",
+      "prophecy",
+      "found family",
+      "celestial guardians",
+      "dark past",
+      "friendship"
     ]
   },
   {
-    "id": "902347",
-    "title": "Phoenix Ascension",
-    "intro": "Born with a power believed to bring destruction, you must prove yourself as the unlikely hero in a world where the line between good and evil blurs with each passing day...",
+    "id": "135497",
+    "title": "Scarlet Redemption",
+    "intro": "Once a fearsome villain known as the Scarlet Reaper, you now seek redemption in a world plagued by darkness, facing inner turmoil and external threats as you walk the path of atonement...",
     "tags": [
-      "power fantasy",
-      "underdog",
-      "redemption",
-      "hero-vs-villain",
+      "redemption arc",
+      "fallen hero",
+      "inner conflict",
+      "anti-hero",
+      "transformation",
       "moral ambiguity",
+      "dark past",
+      "redemption journey"
+    ]
+  },
+  {
+    "id": "469183",
+    "title": "Crimson Moonlight",
+    "intro": "Cursed with the power of a nine-tailed fox, you struggle to control the ancient magic within you while forming an unlikely bond with a mysterious protector in a world of shifting alliances and hidden agendas...",
+    "tags": [
+      "supernatural",
+      "nine-tailed fox",
+      "cursed power",
+      "protector",
+      "forbidden bond",
+      "hidden agendas",
+      "ancient magic",
+      "shifting alliances"
+    ]
+  },
+  {
+    "id": "720356",
+    "title": "Celestial Blades",
+    "intro": "The Tournament of the Stars gathers the most skilled fighters from across realms, where you, an underdog with a unique power, must navigate deadly challenges, rivalries, and unexpected alliances to claim victory...",
+    "tags": [
+      "tournament arc",
+      "action-packed",
+      "unique power",
+      "underdog",
+      "rivalry",
+      "alliance",
+      "inter-realm competition"
+    ]
+  },
+  {
+    "id": "583241",
+    "title": "Twilight Chronicles",
+    "intro": "In the enchanted city of Twilight, where desires are both whispered and forbidden, you find yourself entangled in a web of love, betrayal, and rival advances as ancient secrets unravel around you...",
+    "tags": [
+      "supernatural romance",
+      "forbidden desires",
+      "secret city",
+      "love triangle",
+      "betrayal",
+      "rivalry",
+      "ancient secrets"
+    ]
+  },
+  {
+    "id": "124578",
+    "title": "Arcane Legacy",
+    "intro": "Tasked with protecting a hidden legacy, you struggle with the weight of responsibility, forming an unlikely alliance with a disguised royalty and uncovering hidden truths that blur the lines between friend and foe...",
+    "tags": [
+      "legacy",
+      "reluctant guardian",
+      "responsibility",
+      "disguised royalty",
+      "hidden truths",
+      "alliance",
+      "blurred loyalties"
+    ]
+  },
+  {
+    "id": "896745",
+    "title": "Eclipsed Fate",
+    "intro": "Bound by fate to a dominant protector, you embark on a journey of self-discovery and intense angst, confronting inner demons and forming unbreakable bonds in a world where darkness threatens to consume everything...",
+    "tags": [
+      "dominant protector",
+      "fate",
+      "self-discovery",
+      "intense angst",
+      "inner demons",
+      "unbreakable bonds",
+      "darkness",
+      "fate-bound journey"
+    ]
+  },
+  {
+    "id": "357924",
+    "title": "Phantom Reborn",
+    "intro": "In the realm of shadows, where the line between good and evil blurs, you climb the treacherous leaderboard as a phantom seeking redemption, haunted by past sins and driven by a protective sibling loyalty...",
+    "tags": [
+      "shadows",
+      "leaderboard",
+      "redemption",
+      "phantom",
+      "protective loyalty",
+      "past sins",
+      "sibling bond",
+      "leaderboard climbing"
+    ]
+  },
+  {
+    "id": "632185",
+    "title": "Mirage Memories",
+    "intro": "Plagued by haunting guilt from a past you can't remember, you embark on a journey of self-discovery and redemption, unraveling the mysteries of your existence in a world where nothing is as it seems...",
+    "tags": [
+      "guilt",
+      "haunting memories",
+      "self-discovery",
+      "redemption",
+      "mystery",
+      "hidden past",
+      "unraveling secrets",
+      "existential journey"
+    ]
+  },
+  {
+    "id": "509372",
+    "title": "Echoes of Eternity",
+    "intro": "In a world on the brink of destruction, you, a reluctant hero with untapped potential, find yourself thrust into a battle against powerful forces, forging bonds with a found family to save everything you hold dear...",
+    "tags": [
+      "underdog hero",
+      "reluctant savior",
+      "untapped potential",
+      "battle",
+      "found family",
+      "world-saving",
+      "powerful forces",
+      "imminent destruction"
+    ]
+  },
+  {
+    "id": "274916",
+    "title": "Crimson Horizon",
+    "intro": "As the world falls under the shadow of an eternal eclipse, you must navigate the dangerous alliances and rivalries of a realm teetering on the brink of chaos, where a forbidden love threatens to tip the balance...",
+    "tags": [
+      "eternal eclipse",
+      "dangerous alliances",
+      "rivalries",
+      "forbidden love",
+      "realm in chaos",
+      "balance of power",
+      "shadowy threats"
+    ]
+  },
+  {
+    "id": "745823",
+    "title": "Celestial Veil",
+    "intro": "Sworn to protect the forgotten realm of Celestia, you, a guardian with a past shrouded in mystery, must confront past traumas and dark secrets, forging unlikely alliances and facing ultimate sacrifices for the greater good...",
+    "tags": [
+      "forgotten realm",
+      "guardian",
+      "past trauma",
+      "dark secrets",
+      "unlikely alliances",
+      "ultimate sacrifice",
+      "greater good",
+      "mystery shrouded past"
+    ]
+  },
+  {
+    "id": "452916",
+    "title": "Shadows of Arcadia",
+    "intro": "In the mystical kingdom of Arcadia, where darkness and light constantly vie for supremacy, you find yourself caught in a web of intrigue and ancient prophecies...",
+    "tags": [
+      "fantasy kingdom",
+      "supernatural beings",
+      "rivalry",
+      "power imbalance",
+      "redemption",
+      "magic",
+      "prophecy"
+    ]
+  },
+  {
+    "id": "789023",
+    "title": "Brews & Curses",
+    "intro": "Welcome to Moonlight Cafe, a hidden gem where love potions and hexes are the specialty of the house. As a new barista, you must navigate the brewing romance and brewing trouble among supernatural regulars...",
+    "tags": [
+      "cafe slice-of-life",
+      "supernatural romance",
+      "forbidden desires",
+      "rival advances",
+      "curses",
+      "found family",
+      "hidden secrets"
+    ]
+  },
+  {
+    "id": "124578",
+    "title": "Starfall Academy",
+    "intro": "At the prestigious Starfall Academy, where magic and mystery intertwine, you must navigate the treacherous waters of academia while unraveling a conspiracy that threatens the very fabric of reality...",
+    "tags": [
+      "academy life",
+      "supernatural beings",
+      "power imbalance",
+      "betrayal",
+      "mystery",
+      "teamwork",
+      "epic magic"
+    ]
+  },
+  {
+    "id": "365821",
+    "title": "Scarlet Moon Chronicles",
+    "intro": "A tale of forbidden love and ancient curses unfolds in the land of Eldoria, where a powerful vampire prince and a human princess find themselves entwined in a destiny that could spell doom for both their worlds...",
+    "tags": [
+      "supernatural romance",
+      "vampire",
+      "forbidden love",
+      "destiny",
+      "magic",
+      "rivalry",
+      "redemption"
+    ]
+  },
+  {
+    "id": "987654",
+    "title": "Legacy of the Lost Ones",
+    "intro": "As the last descendant of a fallen dynasty, you must navigate the treacherous waters of courtly intrigue and supernatural threats in a bid to reclaim your rightful place as the true ruler of the realm...",
+    "tags": [
+      "fantasy kingdom",
+      "disguised royalty",
+      "power imbalance",
+      "legacy",
+      "betrayal",
       "found family",
       "supernatural beings"
     ]
   },
   {
-    "id": "159624",
-    "title": "Echoes of the Fallen Kingdom",
-    "intro": "As the last surviving heir to the fallen kingdom of Arindor, you must navigate the treacherous waters of politics and power to reclaim your rightful throne...",
+    "id": "234567",
+    "title": "Phoenix Rebirth",
+    "intro": "Reborn from the ashes of your past life, you awaken in a world where ancient prophecies and devil-powers collide. As the chosen one with the power to change the fate of all, will you rise or fall?",
     "tags": [
-      "fantasy kingdom",
-      "power struggle",
-      "hidden legacy",
+      "power fantasy isekai",
+      "reincarnation",
+      "prophecy",
+      "devil-powers",
+      "team-vs-team",
       "betrayal",
-      "loyalty",
-      "redemption",
-      "forbidden love"
+      "loyalty"
     ]
   },
   {
-    "id": "243875",
-    "title": "Celestial Bond",
-    "intro": "Tasked with protecting the fragile balance between the human world and the supernatural realm, you must navigate a web of forbidden desires and rival advances while keeping your true identity a secret...",
+    "id": "876543",
+    "title": "Nightshade Chronicles",
+    "intro": "In the shadowed alleys of the city of shadows, where heroes and villains dance a deadly waltz, you must tread carefully as you navigate the murky waters of moral ambiguity and twisted loyalties...",
+    "tags": [
+      "urban fantasy",
+      "moral ambiguity",
+      "hero-vs-villain",
+      "forbidden desires",
+      "betrayal",
+      "survival",
+      "redemption"
+    ]
+  },
+  {
+    "id": "135792",
+    "title": "Moonlit Masquerade",
+    "intro": "As a reluctant guardian of a hidden supernatural realm, you must protect its secrets while grappling with forbidden desires and rival advances that threaten to unravel the delicate balance between worlds...",
     "tags": [
       "supernatural beings",
       "reluctant guardian",
       "forbidden desires",
+      "rival advances",
       "power imbalance",
-      "rivals",
-      "hidden identity",
+      "hidden secrets",
       "redemption"
     ]
   },
   {
-    "id": "374921",
-    "title": "Midnight Sonata",
-    "intro": "In the prestigious halls of Sonata Academy, where music and magic intertwine, you find yourself caught in a rivalry that goes beyond mere competition, threatening to unearth long-buried secrets...",
+    "id": "642359",
+    "title": "Echoes of Eternity",
+    "intro": "Bound by an ancient curse that intertwines your fates, you and your rival must navigate a world of magic and mystery as you strive to break free from the chains of destiny and forge your own path...",
     "tags": [
-      "academy life",
-      "supernatural beings",
-      "rivalries",
-      "music magic",
-      "hidden past",
+      "supernatural romance",
+      "rival advances",
+      "curses",
+      "fate",
+      "magic",
       "redemption",
       "forbidden love"
     ]
   },
   {
-    "id": "526407",
-    "title": "Ephemeral Eternity",
-    "intro": "Cursed with the spirit of a nine-tailed fox, you must navigate a world where magic and betrayal go hand in hand, seeking redemption for a past you can't remember...",
+    "id": "528964",
+    "title": "Celestial Champions",
+    "intro": "In the grand arena of the celestial realm, where angels and demons clash in a never-ending battle, you find yourself embroiled in a tournament that will determine the fate of all worlds...",
     "tags": [
+      "action-packed tournament",
+      "angels vs demons",
+      "power imbalance",
+      "epic battles",
+      "redemption",
+      "prophecy",
+      "teamwork"
+    ]
+  },
+  {
+    "id": "785623",
+    "title": "Starlight Sonata",
+    "intro": "At Starfall Academy, where magic and music intertwine, you must navigate the trials of friendship and rivalry as you strive to master the art of celestial harmony and unlock your true potential...",
+    "tags": [
+      "academy life",
+      "magic",
+      "celestial beings",
+      "friendship",
+      "rivalry",
+      "teamwork",
+      "epic music"
+    ]
+  },
+  {
+    "id": "369874",
+    "title": "Crimson Requiem",
+    "intro": "In the cursed city of shadows, where blood and betrayal run rampant, you must navigate the treacherous waters of intrigue and rivalry as you seek to uncover the truth behind the dark legacy that binds you...",
+    "tags": [
+      "urban fantasy",
       "supernatural beings",
-      "nine-tailed fox",
       "curse",
       "betrayal",
-      "redemption",
-      "hidden past",
-      "forbidden love"
-    ]
-  },
-  {
-    "id": "598432",
-    "title": "Scarlet Moon Academy",
-    "intro": "At Scarlet Moon Academy, where students harness elemental powers, a fierce tournament is about to begin, pitting friends against each other in a test of strength and loyalty...",
-    "tags": [
-      "academy life",
-      "elemental powers",
-      "friendship",
       "rivalry",
-      "teamwork",
-      "supernatural",
+      "mystery",
       "redemption"
     ]
   },
   {
-    "id": "763901",
-    "title": "Kingdom of Shadows",
-    "intro": "In the enigmatic Kingdom of Shadows, a commoner finds themselves entangled in the web of the secretive Royal Guard, forced to navigate treacherous paths of loyalty and betrayal...",
-    "tags": [
-      "royalty-commoner dynamics",
-      "secret society",
-      "loyalty",
-      "betrayal",
-      "kingdom politics",
-      "power struggle",
-      "fantasy"
-    ]
-  },
-  {
-    "id": "205874",
-    "title": "Moonlit Cafe",
-    "intro": "Welcome to the Moonlit Cafe, where witches brew love potions and romance lingers in the air, but forbidden desires and rivalries threaten to unravel the delicate balance of magic and emotions...",
+    "id": "215436",
+    "title": "Eclipsed Hearts",
+    "intro": "As twin souls bound by fate but torn apart by destiny, you and your rival must navigate a world of darkness and light, love and loss, as you strive to rewrite the stars and forge a new future...",
     "tags": [
       "supernatural romance",
-      "witches",
-      "love potions",
-      "forbidden love",
-      "rivalries",
-      "magic",
-      "cafe life"
-    ]
-  },
-  {
-    "id": "509623",
-    "title": "Rebirth of the Phoenix",
-    "intro": "Reincarnated as a powerful Phoenix in a world of magic and mystery, you must navigate the treacherous waters of betrayal and loyalty to reclaim your lost honor and seek redemption...",
-    "tags": [
-      "reincarnation",
-      "phoenix powers",
-      "magic world",
-      "betrayal",
-      "redemption",
-      "honor",
-      "fantasy"
-    ]
-  },
-  {
-    "id": "714509",
-    "title": "Crimson Blades",
-    "intro": "The Crimson Blades, a legendary group of heroes, have fallen, leaving behind a legacy of rivalry and camaraderie among their proteges who must now rise to face the looming threat of darkness...",
-    "tags": [
-      "hero legacy",
-      "rivalry",
-      "camaraderie",
-      "fallen heroes",
-      "dark forces",
-      "teamwork",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "326587",
-    "title": "Starfall Academy",
-    "intro": "At Starfall Academy, where students wield cosmic powers, a celestial tournament sparks intense rivalries and unexpected alliances, testing the bonds of friendship and love...",
-    "tags": [
-      "academy life",
-      "cosmic powers",
-      "celestial tournament",
-      "rivalry",
-      "friendship",
-      "love",
-      "supernatural"
-    ]
-  },
-  {
-    "id": "940215",
-    "title": "Shadows of the Nine Realms",
-    "intro": "As the appointed guardian of the Nine Realms, you must navigate the intricate web of politics and power struggles while uncovering dark secrets that threaten the fragile balance of the realms...",
-    "tags": [
-      "guardian protector",
-      "political intrigue",
-      "power struggles",
-      "secrets",
-      "fantasy realms",
-      "supernatural beings",
-      "mystery"
-    ]
-  },
-  {
-    "id": "175609",
-    "title": "Moonlit Melodies",
-    "intro": "In a world where music is forbidden, two souls find solace in each other's melodies, but their love is a dangerous secret that could unravel the fragile peace between rival factions...",
-    "tags": [
-      "forbidden love",
-      "music",
-      "romance",
-      "rival factions",
-      "secrets",
-      "forbidden desires",
-      "fantasy world"
-    ]
-  },
-  {
-    "id": "482713",
-    "title": "Legacy of the Blood Moon",
-    "intro": "In a city plagued by shadows and secrets, a lone vampire seeks redemption through protecting a group of outcast humans, forging unexpected bonds and facing their haunted past...",
-    "tags": [
-      "vampires",
-      "redemption",
-      "secrets",
-      "supernatural beings",
-      "outcast humans",
-      "haunted past",
-      "urban fantasy"
-    ]
-  },
-  {
-    "id": "369802",
-    "title": "Dreamers' Haven",
-    "intro": "Bound by guilt and haunted by past mistakes, a group of dreamers must navigate a world of shifting realities and twisted illusions to uncover the truth and find redemption...",
-    "tags": [
-      "guilt",
-      "past mistakes",
-      "illusions",
-      "shifting realities",
-      "truth",
-      "redemption",
-      "supernatural"
-    ]
-  },
-  {
-    "id": "570394",
-    "title": "Celestial Convergence",
-    "intro": "Chosen by ancient prophecy, a group of unlikely heroes must embark on a perilous journey through the Celestial Convergence, facing powerful foes and discovering their intertwined destinies...",
-    "tags": [
-      "chosen heroes",
-      "prophecy",
-      "perilous journey",
-      "powerful foes",
+      "fate",
       "destiny",
-      "intertwined fates",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "206785",
-    "title": "Shadow's Embrace",
-    "intro": "In the shadowy depths of the enchanted forest, a forbidden romance blooms between a mysterious creature of the night and a curious wanderer, their love defying the laws of nature...",
-    "tags": [
-      "forbidden romance",
-      "enchanted forest",
-      "mysterious creature",
-      "love story",
+      "love triangles",
       "forbidden love",
-      "fantasy",
-      "supernatural"
+      "prophecy",
+      "redemption"
     ]
   },
   {
-    "id": "891356",
-    "title": "Arcane Rivals",
-    "intro": "In a world where magic is both a gift and a curse, two powerful sorcerers engage in a high-stakes duel of wits and power, each harboring secrets that could unravel their world...",
-    "tags": [
-      "magic",
-      "sorcerers",
-      "duel",
-      "secrets",
-      "high stakes",
-      "power struggle",
-      "fantasy world"
-    ]
-  },
-  {
-    "id": "467820",
-    "title": "Crescent Moon Academy",
-    "intro": "At Crescent Moon Academy, where students hold ancient powers, a veil of secrets shrouds the school, hiding dark truths and forbidden desires that threaten to tear apart the fragile balance of magic...",
-    "tags": [
-      "academy life",
-      "ancient powers",
-      "secrets",
-      "dark truths",
-      "forbidden desires",
-      "magic",
-      "supernatural"
-    ]
-  },
-  {
-    "id": "135794",
-    "title": "Chronicles of the Blood Moon",
-    "intro": "Born of darkness and vengeance, a reluctant hero must confront their past to protect the realm from an ancient evil, forging new alliances and facing their inner demons...",
-    "tags": [
-      "darkness",
-      "vengeance",
-      "reluctant hero",
-      "ancient evil",
-      "alliances",
-      "inner demons",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "528913",
-    "title": "Shadow Academy",
-    "intro": "In the mystical halls of Shadow Academy, where students harness forbidden shadows, you, a newcomer with untapped potential, must navigate rivalries and secrets to uncover your hidden power.",
+    "id": "974125",
+    "title": "Crystal Academy Chronicles",
+    "intro": "Enroll in Crystal Academy, a prestigious school for gifted individuals where rivalries run deep and secrets lurk in every corner. Will you rise above the competition or be consumed by the shadows of your past?",
     "tags": [
       "academy life",
       "supernatural beings",
-      "rivalry",
-      "hidden potential",
+      "rivalries",
+      "mystery",
       "power imbalance",
-      "redemption",
-      "mystery"
-    ]
-  },
-  {
-    "id": "742608",
-    "title": "Moonlit Masquerade",
-    "intro": "As a disguised royal attending the Moonlit Masquerade ball in Teyvat, you find yourself drawn to a mysterious figure with a dangerous secret, leading to a forbidden romance that could unravel kingdoms.",
-    "tags": [
-      "fantasy kingdom",
-      "forbidden love",
-      "royalty",
-      "masquerade",
-      "secrets",
-      "supernatural romance",
+      "teamwork",
       "betrayal"
     ]
   },
   {
-    "id": "315724",
-    "title": "Crimson Hearts Cafe",
-    "intro": "Welcome to the Crimson Hearts Cafe, where cursed souls find solace in each other's company. As a new barista with a dark past, you must navigate supernatural romances and rivalries brewing within the cafe's walls.",
+    "id": "543210",
+    "title": "Seraphim Symphony",
+    "intro": "Amidst the celestial realm where angels and demons vie for supremacy, you must navigate a delicate dance of allegiances and rivalries as you uncover the truth behind an ancient prophecy that could change the course of history...",
     "tags": [
-      "cafe life",
-      "supernatural beings",
-      "romance",
-      "curses",
-      "found family",
-      "rivalries",
-      "redemption"
-    ]
-  },
-  {
-    "id": "896532",
-    "title": "Celestial Clash",
-    "intro": "The Celestial Clash tournament gathers warriors from different worlds, pitting them against each other in a battle for supremacy. As an underdog competitor with a mysterious past, you must rise through the ranks and confront your destiny.",
-    "tags": [
-      "tournament arc",
-      "power fantasy",
-      "underdog",
-      "destiny",
-      "team-vs-team",
+      "fantasy kingdom",
+      "celestial beings",
+      "prophecy",
+      "power imbalance",
+      "allegiances",
       "redemption",
       "epic battles"
     ]
   },
   {
-    "id": "431097",
-    "title": "Shadow of the Nine Moons",
-    "intro": "In a world plagued by darkness and bloodlust, you, a reluctant hero descended from a powerful vampire clan, must navigate the intricate webs of power and betrayal while uncovering the secrets of your lineage.",
-    "tags": [
-      "supernatural",
-      "vampires",
-      "legacy",
-      "betrayal",
-      "power imbalance",
-      "reluctant hero",
-      "mystery"
-    ]
-  },
-  {
-    "id": "674238",
-    "title": "Echoes of Eternity",
-    "intro": "Reborn into a world torn apart by war and chaos, you possess the legendary powers of an ancient deity. As you struggle to find your place in this new reality, enemies become allies and love blooms amidst the ashes.",
-    "tags": [
-      "reincarnation",
-      "power fantasy",
-      "enemies-to-lovers",
-      "found family",
-      "redemption",
-      "epic battles",
-      "divine powers"
-    ]
-  },
-  {
-    "id": "189354",
-    "title": "Starfall Academy",
-    "intro": "At Starfall Academy, where students train in the art of cosmic magic, you, a reluctant prodigy with a dark secret, must navigate the treacherous waters of academia while uncovering the truth behind your family's legacy.",
-    "tags": [
-      "academy life",
-      "supernatural beings",
-      "magic",
-      "legacy",
-      "rivalries",
-      "redemption",
-      "hidden potential"
-    ]
-  },
-  {
-    "id": "506712",
-    "title": "Moonlit Reverie",
-    "intro": "As the guardian of the Forbidden Forest, you must protect its secrets from those who seek to exploit its powers. But when a forbidden romance blossoms between you and a rival intruder, loyalty and desire collide in a dangerous game.",
-    "tags": [
-      "forbidden love",
-      "supernatural beings",
-      "guardian",
-      "rivalries",
-      "forbidden desires",
-      "loyalty",
-      "redemption"
-    ]
-  },
-  {
-    "id": "923467",
-    "title": "Celestial Chronicles",
-    "intro": "The Celestial Chronicles foretell the rise of a fallen hero who will bring balance to the realms. With allies and foes at every turn, you, a former villain seeking redemption, must confront your past to embrace your destiny.",
-    "tags": [
-      "fantasy kingdom",
-      "redemption arc",
-      "fallen hero",
-      "prophecy",
-      "found family",
-      "betrayal",
-      "destiny"
-    ]
-  },
-  {
-    "id": "179536",
-    "title": "Midnight Shadows",
-    "intro": "In the realm of Midnight Shadows, where lost souls wander seeking redemption, you, a dominant protector with a haunted past, must guide them towards healing. But when a forbidden romance blooms, the boundaries of duty blur.",
-    "tags": [
-      "supernatural",
-      "trauma healing",
-      "protector",
-      "forbidden romance",
-      "found family",
-      "redemption",
-      "guilt"
-    ]
-  },
-  {
-    "id": "458921",
-    "title": "Shadows of the Mystic Academy",
-    "intro": "In the mystical halls of Arcane Academy, where magic flows like a river, you, a rookie mage with untapped potential, are about to face your toughest rival in the grand tournament...",
-    "tags": [
-      "academy life",
-      "magic",
-      "rivalry",
-      "underdog",
-      "tournament arc",
-      "supernatural",
-      "power fantasy"
-    ]
-  },
-  {
-    "id": "763245",
-    "title": "Moonlit Serenade at Cafe Aurora",
-    "intro": "At Cafe Aurora, where the aroma of coffee mingles with whispers of the supernatural, you find yourself drawn to a mysterious musician with a haunting melody that speaks to your soul...",
-    "tags": [
-      "cafe slice-of-life",
-      "supernatural romance",
-      "music",
-      "mystery",
-      "forbidden love",
-      "found family",
-      "supernatural beings"
-    ]
-  },
-  {
-    "id": "592817",
-    "title": "Crown of Shadows and Light",
-    "intro": "As the hidden heir to the throne of Luminaria, you must navigate the treacherous court filled with secrets, betrayal, and a forbidden love that could shake the foundations of the kingdom...",
-    "tags": [
-      "fantasy kingdom",
-      "royalty",
-      "forbidden love",
-      "hidden identity",
-      "political intrigue",
-      "supernatural beings",
-      "rival advances"
-    ]
-  },
-  {
-    "id": "374629",
-    "title": "Legacy of the Crimson Phoenix",
-    "intro": "In a world where ancient prophecies and dark magic collide, you, the reluctant hero with a tragic past, must confront your destiny and face the malevolent forces threatening to plunge the world into chaos...",
-    "tags": [
-      "supernatural",
-      "epic conclusion",
-      "redemption",
-      "prophecy",
-      "underdog",
-      "magic",
-      "trauma healing"
-    ]
-  },
-  {
-    "id": "915738",
-    "title": "Starcrossed Souls of the Azure Moon",
-    "intro": "When two souls from warring factions, bound by fate and torn apart by duty, meet under the azure moonlight, their forbidden love ignites a spark that could either save or destroy them both...",
-    "tags": [
-      "forbidden love",
-      "enemies-to-lovers",
-      "supernatural romance",
-      "destiny",
-      "war-torn",
-      "redemption",
-      "star-crossed"
-    ]
-  },
-  {
-    "id": "536478",
-    "title": "Chronicles of the Shadow Guild",
-    "intro": "As a member of the elusive Shadow Guild, shrouded in secrecy and steeped in darkness, you must navigate a world of political intrigue, betrayal, and dangerous alliances to uncover the truth behind a sinister plot that threatens to unravel everything...",
-    "tags": [
-      "betrayal",
-      "loyalty",
-      "survival",
-      "redemption",
-      "secret society",
-      "underworld",
-      "enemies-to-lovers"
-    ]
-  },
-  {
-    "id": "309842",
-    "title": "Serenade of the Crimson Moon",
-    "intro": "In the moonlit city of Mysteria, where supernatural beings roam freely among mortals, you, a gifted musician with a mysterious power, find yourself entangled in a web of secrets, love, and a destiny foretold in ancient prophecies...",
-    "tags": [
-      "supernatural romance",
-      "music",
-      "prophecy",
-      "hidden powers",
-      "destiny",
-      "love triangle",
-      "supernatural beings"
-    ]
-  },
-  {
-    "id": "724916",
-    "title": "Resurgence of the Fallen Phoenix",
-    "intro": "Reborn from the ashes of betrayal and loss, you, the phoenix with the power of resurrection, must navigate a world of treachery and deceit to uncover the truth behind your past and seek redemption for your sins...",
-    "tags": [
-      "reincarnation",
-      "betrayal",
-      "redemption",
-      "phoenix",
-      "supernatural",
-      "power fantasy",
-      "hidden past"
-    ]
-  },
-  {
-    "id": "183726",
-    "title": "Echoes of the Forgotten Kingdom",
-    "intro": "In the ruins of an ancient kingdom shrouded in mystery and magic, you, a wandering traveler with no memory of your past, must unravel the secrets of your lost heritage and confront the dark forces that seek to claim your power for their own...",
-    "tags": [
-      "fantasy kingdom",
-      "mystery",
-      "amnesia",
-      "magic",
-      "lost heritage",
-      "rival factions",
-      "supernatural beings"
-    ]
-  },
-  {
-    "id": "510379",
-    "title": "Blades of the Crimson Rose",
-    "intro": "As a novice swordfighter in the prestigious Rose Academy, where rivals clash and alliances are fragile, you must prove your worth in the annual tournament and navigate the intricate web of relationships, friendships, and rivalries that define life within its hallowed halls...",
-    "tags": [
-      "academy life",
-      "tournament arc",
-      "rivalry",
-      "found family",
-      "underdog",
-      "coming-of-age",
-      "swordfighting"
-    ]
-  },
-  {
-    "id": "682194",
-    "title": "Shadows of the Celestial Court",
-    "intro": "Amidst the opulent halls of the Celestial Court, where power and influence are currency, you, a disguised royal with a dark secret, must navigate a dangerous game of politics, deception, and forbidden desires that threaten to unravel everything you hold dear...",
-    "tags": [
-      "court intrigue",
-      "disguised royalty",
-      "political games",
-      "forbidden desires",
-      "secret identity",
-      "betrayal",
-      "supernatural beings"
-    ]
-  },
-  {
-    "id": "925610",
-    "title": "Veil of the Midnight Fox",
-    "intro": "In the shadowed forests where ancient spirits dwell, you, a lone traveler haunted by a dark past, must confront the enigmatic nine-tailed fox spirit whose mysterious powers could either save you from your demons or condemn you to eternal darkness...",
-    "tags": [
-      "supernatural",
-      "nine-tailed fox",
-      "haunted past",
-      "redemption",
-      "supernatural beings",
-      "mysterious powers",
-      "dark spirits"
-    ]
-  },
-  {
-    "id": "176542",
-    "title": "Masquerade of the Silver Moon",
-    "intro": "At the grand ball of the Silver Moon Society, where masks hide secrets and desires run deep, you, a reluctant debutante with a hidden power, must navigate a world of intrigue, romance, and dark magic that threatens to consume all who dare to dance in its shadows...",
-    "tags": [
-      "masquerade",
-      "hidden powers",
-      "dark magic",
-      "romance",
-      "betrayal",
-      "secrets",
-      "supernatural beings"
-    ]
-  },
-  {
-    "id": "347902",
-    "title": "Symphony of the Crimson Rose",
-    "intro": "In the prestigious Academy of Arts, where talents shine and rivalries ignite, you, a gifted musician with a tragic past, must confront your inner demons, forge new friendships, and unlock the power of music to heal old wounds and find redemption in the echoes of the past...",
-    "tags": [
-      "academy life",
-      "music",
-      "redemption",
-      "trauma healing",
-      "found family",
-      "rivalry",
-      "coming-of-age"
-    ]
-  },
-  {
-    "id": "639875",
-    "title": "Whispers of the Fallen Star",
-    "intro": "In the mystical city of Lumina, where stars sing and dreams come to life, you, a lost soul seeking purpose, must unravel the mysteries of your forgotten past and confront the darkness that threatens to consume the light within you...",
-    "tags": [
-      "supernatural",
-      "destiny",
-      "lost memories",
-      "purpose",
-      "redemption",
-      "supernatural beings",
-      "mystery origin"
-    ]
-  },
-  {
-    "id": "458921",
-    "title": "Shadows of Destiny",
-    "intro": "In the realm of Aetheria, two powerful factions vie for supremacy, their rivalry sparking a legendary tournament that will decide the fate of all beings...",
-    "tags": [
-      "power fantasy",
-      "team-vs-team",
-      "hero-vs-villain",
-      "redemption",
-      "supernatural beings",
-      "epic battles",
-      "found-family"
-    ]
-  },
-  {
-    "id": "765289",
-    "title": "Moonlit Masquerade",
-    "intro": "Welcome to the Moonlit Masquerade Cafe, where the aroma of magic-infused coffee mingles with the whispers of forbidden desires and hidden pasts...",
-    "tags": [
-      "supernatural romance",
-      "cafe life",
-      "forbidden love",
-      "magic",
-      "hidden identities",
-      "supernatural beings",
-      "found family"
-    ]
-  },
-  {
-    "id": "532198",
+    "id": "458923",
     "title": "Crimson Moon Academy",
-    "intro": "At Crimson Moon Academy, where ancient curses and dark legacies reign, a rookie student must navigate a web of deceit and power struggles to uncover the truth about their own hidden heritage...",
+    "intro": "In the hallowed halls of Crimson Moon Academy, where ancient rivalries and hidden agendas run deep, you, a reluctant guardian, must guide a disguised royal heir through a treacherous tournament to claim their rightful place on the throne.",
     "tags": [
       "academy life",
-      "supernatural beings",
-      "power imbalance",
+      "hidden royalty",
+      "power struggle",
       "legacy",
-      "betrayal",
-      "redemption",
-      "rival advances"
-    ]
-  },
-  {
-    "id": "107564",
-    "title": "Celestial Convergence",
-    "intro": "When a fallen sorcerer is granted a chance at redemption through a cosmic reincarnation ritual, he must navigate a treacherous path of betrayal and loyalty to reclaim his lost throne...",
-    "tags": [
-      "power fantasy",
-      "jujutsu-sorcerer",
-      "reincarnation",
-      "betrayal",
-      "loyalty",
-      "epic battles",
+      "rivalry",
+      "supernatural beings",
       "redemption"
     ]
   },
   {
-    "id": "376894",
-    "title": "Starfall Chronicles",
-    "intro": "In the mystical realm of Astoria, where stars fall as omens of fate, a reluctant hero must confront his traumatic past and embrace his role in shaping the future of his world...",
+    "id": "765401",
+    "title": "Shadows of Fate",
+    "intro": "As a dominant protector of the Nine Realms, your quest for redemption takes a dark turn when you form an unlikely bond with a haunted vampire seeking vengeance against those who betrayed them.",
     "tags": [
-      "underdog",
+      "supernatural beings",
+      "redemption",
+      "forbidden desires",
+      "betrayal",
+      "enemies-to-lovers",
       "trauma healing",
-      "supernatural",
-      "epic conclusions",
-      "found family",
-      "destiny",
-      "protective loyalty"
+      "intense angst"
     ]
   },
   {
-    "id": "934752",
-    "title": "Arcane Heirloom",
-    "intro": "As the last scion of the cursed Silverwood bloodline, you inherit a mysterious manor that holds the key to unlocking your dormant powers and uncovering a forbidden love that transcends time...",
+    "id": "302145",
+    "title": "Starlight Cafe",
+    "intro": "Welcome to Starlight Cafe, where the aroma of magic-infused coffee fills the air and supernatural creatures gather to share their stories of forbidden love, found family, and the haunting melodies of lost memories.",
+    "tags": [
+      "cafe life",
+      "supernatural romance",
+      "forbidden love",
+      "found family",
+      "magical ambiance",
+      "memory loss",
+      "haunting past"
+    ]
+  },
+  {
+    "id": "609872",
+    "title": "Arcane Kingdom Chronicles",
+    "intro": "In the mystical realm of Arcane Kingdom, where ancient prophecies and dark sorcery intertwine, you, an underdog with devil powers, must navigate treacherous plots and shifting loyalties to uncover the truth behind your reincarnation.",
+    "tags": [
+      "fantasy kingdom",
+      "supernatural beings",
+      "reincarnation",
+      "devil powers",
+      "betrayal",
+      "survival",
+      "prophecy"
+    ]
+  },
+  {
+    "id": "136754",
+    "title": "Celestial Rivalry",
+    "intro": "The celestial tournament has begun, pitting underdog heroes against dominant rivals in a battle for ultimate power. As the reluctant hero, you must confront your past and embrace your destiny to protect those you love.",
+    "tags": [
+      "redemption arc",
+      "rivalry",
+      "underdog",
+      "hero's journey",
+      "celestial beings",
+      "power struggle",
+      "reluctant hero"
+    ]
+  },
+  {
+    "id": "574320",
+    "title": "Moonlit Shadows",
+    "intro": "Haunted by the shadows of your past, you, a protector of the ancient Nine Tails clan, find solace in the arms of a mysterious stranger who holds the key to unlocking your true power and confronting the darkness within.",
+    "tags": [
+      "supernatural beings",
+      "nine-tailed foxes",
+      "trauma healing",
+      "mysterious stranger",
+      "power unlocking",
+      "found family bonds",
+      "intense angst"
+    ]
+  },
+  {
+    "id": "940216",
+    "title": "Mirage Academy",
+    "intro": "As a rookie competitor at Mirage Academy, where illusions and reality blur, you must navigate a web of secrets and rival advances while uncovering the truth behind your hidden legacy and the forbidden desires that bind you.",
+    "tags": [
+      "academy life",
+      "illusions",
+      "hidden legacy",
+      "rival advances",
+      "forbidden desires",
+      "secrets",
+      "rookie competitor"
+    ]
+  },
+  {
+    "id": "513794",
+    "title": "Seraphim's Embrace",
+    "intro": "In the ethereal realm of Seraphim, where forbidden desires and rivalries simmer beneath the surface, you must navigate the intricate dance of power imbalance and legacy to protect the fragile bonds of love that tie you together.",
     "tags": [
       "supernatural romance",
       "forbidden love",
-      "magic",
-      "curses",
+      "power imbalance",
       "legacy",
-      "hidden pasts",
-      "rival advances"
+      "forbidden desires",
+      "rivalries",
+      "protective bonds"
     ]
   },
   {
-    "id": "215703",
-    "title": "Phoenix Resurgence",
-    "intro": "From the ashes of betrayal, a phoenix rises, seeking vengeance against those who wronged him, but in the flames of his wrath, he finds unexpected allies and a chance for redemption...",
+    "id": "207631",
+    "title": "Phoenix Rising",
+    "intro": "From the ashes of betrayal, a new hero emerges, wielding the power of rebirth and redemption. Journey through the realms of fire and ice as you face your enemies, confront your past, and forge a path towards survival and loyalty.",
     "tags": [
       "power fantasy",
+      "redemption arc",
+      "rebirth",
       "betrayal",
       "enemies-to-lovers",
-      "redemption",
-      "epic battles",
-      "found family",
+      "survival",
       "loyalty"
     ]
   },
   {
-    "id": "649809",
-    "title": "Seraphim Sanctuary",
-    "intro": "As the guardian of the Seraphim Sanctuary, you must navigate the intricate web of rival factions and forbidden desires that threaten to unravel the delicate balance between the mortal and immortal realms...",
+    "id": "872519",
+    "title": "Whispering Shadows",
+    "intro": "In the shadowy depths of Whispering Shadows Academy, where dark secrets and ancient curses linger, you, a dominant protector with a haunted past, must confront your inner demons and embrace your role as a reluctant hero.",
     "tags": [
-      "reluctant guardian",
+      "academy life",
       "supernatural beings",
-      "power imbalance",
-      "forbidden desires",
-      "rival advances",
-      "legacy",
-      "redemption"
-    ]
-  },
-  {
-    "id": "310478",
-    "title": "Twilight Revelations",
-    "intro": "In the twilight realm of Illusionaria, where memories are as transient as shadows, a trio of lost souls must confront their shared past and unravel the mysteries that bind them together...",
-    "tags": [
-      "supernatural romance",
-      "found family",
+      "dark secrets",
+      "ancient curses",
       "trauma healing",
-      "magic",
-      "forbidden love",
-      "mysterious pasts",
-      "protective loyalty"
+      "dominant protector",
+      "reluctant hero"
     ]
   },
   {
-    "id": "527613",
-    "title": "Celestial Ascension",
-    "intro": "When a fallen king is reincarnated as a lowly commoner, he must embark on a perilous journey of self-discovery and redemption, guided by a mysterious prophecy that foretells his rise to power...",
+    "id": "345672",
+    "title": "Lunar Eclipse Cafe",
+    "intro": "Step into the enchanting world of Lunar Eclipse Cafe, where supernatural beings gather under the light of the moon to share tales of love, loss, and found family. Amidst haunting melodies and forbidden desires, destiny beckons.",
     "tags": [
-      "master-servant",
-      "royalty-commoner",
-      "reincarnation",
-      "redemption",
-      "prophecy",
-      "power struggle",
-      "heroic aspirations"
-    ]
-  },
-  {
-    "id": "359801",
-    "title": "Shadows of Destiny",
-    "intro": "In the prestigious halls of Arcane Academy, two students, Alex and Mia, find themselves at odds in the midst of an intense magical tournament...",
-    "tags": [
-      "academy life",
-      "rivalry",
-      "magic",
-      "power imbalance",
-      "redemption",
-      "underdog",
-      "fantasy"
-    ]
-  },
-  {
-    "id": "702504",
-    "title": "Moonlit Secrets",
-    "intro": "As a disguised royalty in the moonlit kingdom of Lunaris, you find yourself drawn to a mysterious figure whose true identity could shatter everything you know...",
-    "tags": [
-      "fantasy kingdom",
-      "forbidden love",
+      "cafe life",
       "supernatural romance",
-      "secrets",
-      "rivalry",
-      "power imbalance",
-      "legacy"
-    ]
-  },
-  {
-    "id": "486203",
-    "title": "Starcrossed Souls",
-    "intro": "At the mystical Moonlight Cafe, where beings from different realms converge, a barista named Aria discovers a forbidden attraction to a customer with a dark secret...",
-    "tags": [
-      "cafe",
-      "supernatural",
+      "found family",
       "forbidden desires",
-      "romance",
-      "supernatural beings",
-      "secrets",
-      "power imbalance"
-    ]
-  },
-  {
-    "id": "815709",
-    "title": "Legacy of the Nine",
-    "intro": "In a world plagued by dark forces, Ren, a reluctant hero with the power of a nine-tailed fox, must confront his traumatic past and protect those he loves...",
-    "tags": [
-      "supernatural",
-      "trauma healing",
-      "found family",
-      "protector",
-      "guilt",
-      "supernatural beings",
-      "redemption"
-    ]
-  },
-  {
-    "id": "124607",
-    "title": "Blood Moon Rising",
-    "intro": "In the competitive world of supernatural warriors, siblings Akira and Hikari strive to climb the ranks of the Blood Moon Society while wrestling with their past sins...",
-    "tags": [
-      "leaderboard",
-      "supernatural",
-      "sibling loyalty",
-      "redemption",
-      "rivalry",
-      "guilt",
-      "achievement-hunting"
-    ]
-  },
-  {
-    "id": "932815",
-    "title": "Celestial Bonds",
-    "intro": "Transported to the fantastical realm of Astoria, a group of strangers must navigate a web of betrayal and loyalty as they uncover the true power of their devil-powers...",
-    "tags": [
-      "isekai",
-      "betrayal",
-      "loyalty",
-      "devil powers",
-      "found family",
-      "fantasy",
-      "redemption"
-    ]
-  },
-  {
-    "id": "557902",
-    "title": "Midnight Mirage",
-    "intro": "In the neon-lit streets of Mirage City, a group of vigilantes known as the Shadow Syndicate grapple with their own moral ambiguity as they face off against a corrupt regime...",
-    "tags": [
-      "city",
-      "moral ambiguity",
-      "vigilantes",
-      "team-vs-team",
-      "enemies-to-lovers",
-      "survival",
-      "redemption"
-    ]
-  },
-  {
-    "id": "369208",
-    "title": "Starfall Chronicles",
-    "intro": "At the renowned Heroes Academy, a group of misfit students must band together to overcome their differences and face the ultimate test of their newfound powers in an upcoming tournament...",
-    "tags": [
-      "academy life",
-      "underdog",
-      "team-vs-team",
-      "hero-vs-villain",
-      "found family",
-      "redemption",
-      "power fantasy"
-    ]
-  },
-  {
-    "id": "745316",
-    "title": "Crimson Eclipse",
-    "intro": "When former friends turned bitter rivals, Kaito and Akira, are forced to team up in a high-stakes tournament, old wounds resurface as they struggle to find common ground...",
-    "tags": [
-      "rivalry",
-      "team-vs-team",
-      "redemption",
-      "enemies-to-lovers",
-      "slow-burn",
-      "power imbalance",
-      "underdog"
-    ]
-  },
-  {
-    "id": "182703",
-    "title": "Echoes of Destiny",
-    "intro": "In a world where supernatural beings coexist with humans, a chance encounter between a vampire and a human sparks a forbidden romance that threatens to disrupt the fragile peace...",
-    "tags": [
-      "supernatural romance",
-      "forbidden love",
-      "vampires",
-      "magic",
-      "power imbalance",
-      "legacy",
-      "secrets"
-    ]
-  },
-  {
-    "id": "438921",
-    "title": "Shadows of the Blood Moon Tournament",
-    "intro": "As the sun sets over the grand arena, competitors from all realms gather for the ultimate test of skill and power in the Blood Moon Tournament...",
-    "tags": [
-      "supernatural",
-      "action-packed",
-      "tournament arc",
-      "rivalry",
-      "redemption",
-      "supernatural romance",
-      "power fantasy"
-    ]
-  },
-  {
-    "id": "765432",
-    "title": "Moonlight Revelations at Celestial Academy",
-    "intro": "In the halls of Celestial Academy, where magic flows like a gentle stream, a group of misfit students uncovers a hidden prophecy that could change their fates forever...",
-    "tags": [
-      "academy life",
-      "found family",
-      "supernatural beings",
-      "magic",
-      "prophecy",
+      "haunting melodies",
       "destiny",
-      "underdog"
+      "supernatural beings"
     ]
   },
   {
-    "id": "309875",
-    "title": "Forbidden Stars of Nightshade Kingdom",
-    "intro": "In the forbidden kingdom of Nightshade, where love is a dangerous game, a commoner finds herself entangled in a web of royal intrigue and forbidden desires...",
-    "tags": [
-      "fantasy kingdom",
-      "forbidden love",
-      "power imbalance",
-      "romance",
-      "royalty-commoner",
-      "rivalry",
-      "redemption"
-    ]
-  },
-  {
-    "id": "526134",
-    "title": "Cafe of Enchantment",
-    "intro": "At the Moonlit Crossroads cafe, where supernatural beings and humans mingle, a chance encounter sparks a chain of events that could bridge the divide between two worlds...",
-    "tags": [
-      "cafe slice-of-life",
-      "supernatural elements",
-      "found family",
-      "forbidden desires",
-      "magic",
-      "romance",
-      "rival advances"
-    ]
-  },
-  {
-    "id": "718935",
-    "title": "Rebirth of the Demon Lord's Heir",
-    "intro": "In a world ravaged by war and betrayal, a young orphan discovers he is the reincarnation of the Demon Lord, setting him on a path of vengeance and redemption...",
-    "tags": [
-      "isekai",
-      "power fantasy",
-      "betrayal",
-      "loyalty",
-      "redemption",
-      "enemies-to-lovers",
-      "reincarnation"
-    ]
-  },
-  {
-    "id": "241908",
-    "title": "Echoes of the Nine-Tailed Fox",
-    "intro": "Haunted by the spirit of the legendary Nine-Tailed Fox, a young warrior must navigate a world of dark powers and ancient secrets to unlock his true potential...",
-    "tags": [
-      "supernatural",
-      "nine-tailed fox",
-      "dominant protector",
-      "found family",
-      "intense angst",
-      "power imbalance",
-      "redemption"
-    ]
-  },
-  {
-    "id": "573219",
-    "title": "Starfall Chronicles",
-    "intro": "In the ruins of a fallen kingdom, a reluctant hero must face his fears and embrace his destiny as the last guardian of a power long forgotten...",
-    "tags": [
-      "fantasy kingdom",
-      "reluctant hero",
-      "legacy",
-      "underdog",
-      "supernatural beings",
-      "redemption",
-      "rival advances"
-    ]
-  },
-  {
-    "id": "124567",
-    "title": "Shadows of the Silver Moon",
-    "intro": "In a world where moonlight holds ancient secrets, two souls bound by fate must navigate a treacherous path of forbidden love and rival ambitions...",
-    "tags": [
-      "supernatural romance",
-      "forbidden love",
-      "enemies-to-lovers",
-      "slow-burn",
-      "found family",
-      "supernatural beings",
-      "redemption"
-    ]
-  },
-  {
-    "id": "802346",
-    "title": "The Scarlet Rose and the Dark Knight",
-    "intro": "A forbidden romance blooms between a humble flower shop owner and a mysterious dark knight, challenging societal norms and igniting a spark that could change their worlds...",
-    "tags": [
-      "cafe slice-of-life",
-      "forbidden desires",
-      "romance",
-      "power imbalance",
-      "supernatural elements",
-      "rival advances",
-      "found family"
-    ]
-  },
-  {
-    "id": "365789",
-    "title": "The Last Stand of the Guardian's Blade",
-    "intro": "In a world torn apart by war, a fallen hero rises from the ashes to reclaim his honor and protect those he holds dear, even if it means facing his own demons...",
-    "tags": [
-      "power fantasy",
-      "redemption",
-      "protective sibling loyalty",
-      "survival",
-      "betrayal",
-      "intense angst",
-      "epic conclusions"
-    ]
-  },
-  {
-    "id": "913245",
-    "title": "Crimson Moonlight",
-    "intro": "At the Academy of Shadows, where darkness reigns and secrets lurk in every corner, a group of outcast students discovers their shared destiny in the face of looming danger...",
+    "id": "928546",
+    "title": "Celestial Academy",
+    "intro": "As a starry-eyed rookie at Celestial Academy, where cosmic powers and ancient prophecies collide, you must navigate the treacherous waters of power imbalance, forbidden love, and rival advances to unlock your true potential.",
     "tags": [
       "academy life",
-      "found family",
-      "supernatural beings",
-      "magic",
-      "rival advances",
-      "betrayal",
-      "redemption"
-    ]
-  },
-  {
-    "id": "478250",
-    "title": "Star-Crossed Requiem of the Dark Moon",
-    "intro": "In the celestial city of Lunastra, where starlight weaves destinies, a forbidden love between a vampire prince and a human girl threatens to unravel the fragile peace of their worlds...",
-    "tags": [
-      "supernatural romance",
+      "cosmic powers",
+      "ancient prophecies",
+      "power imbalance",
       "forbidden love",
-      "vampire",
-      "dominant protector",
-      "intense angst",
-      "forbidden desires",
-      "redemption"
+      "rival advances",
+      "rookie competitor"
     ]
   },
   {
-    "id": "689432",
-    "title": "Legacy of the Blood Moon Heir",
-    "intro": "A young mage discovers she is the last descendant of the ancient Blood Moon clan, setting her on a path of discovery, betrayal, and ultimately, redemption...",
+    "id": "461802",
+    "title": "Shadowed Kingdom",
+    "intro": "Within the shadowed halls of the kingdom, where loyalty is tested and survival is paramount, you must navigate the treacherous web of betrayal and redemption to uncover the truth behind the dark forces that threaten to consume you.",
     "tags": [
       "fantasy kingdom",
-      "legacy",
-      "underdog",
-      "magic",
       "betrayal",
-      "supernatural beings",
+      "loyalty",
+      "survival",
+      "redemption",
+      "dark forces",
+      "treacherous web"
+    ]
+  },
+  {
+    "id": "197358",
+    "title": "Cascade of Shadows",
+    "intro": "Amidst the cascading shadows of the past, a reluctant hero rises to challenge fate and confront their inner demons. Journey through the realms of magic and mystery as you unravel the threads of destiny and embrace your true power.",
+    "tags": [
+      "power fantasy",
+      "reluctant hero",
+      "fate",
+      "inner demons",
+      "magic",
+      "mystery",
+      "true power"
+    ]
+  },
+  {
+    "id": "582106",
+    "title": "Aurora Academy",
+    "intro": "At Aurora Academy, where the legacy of light and darkness intertwine, you, a dominant protector with a haunted past, must confront your fears and forge new bonds of found family and loyalty amidst the ever-present shadows of redemption.",
+    "tags": [
+      "academy life",
+      "legacy",
+      "dominant protector",
+      "haunted past",
+      "found family",
+      "loyalty",
       "redemption"
     ]
   },
   {
-    "id": "102347",
-    "title": "Shadows of the Silver Lotus",
-    "intro": "In the mystical city of Lotoria, where dark secrets lie beneath the surface, a group of unlikely allies must navigate a web of deceit and danger to uncover the truth...",
+    "id": "349812",
+    "title": "Shadows of Destiny",
+    "intro": "In the bustling city of Yokohama, you awaken with newfound devil powers and a mysterious past, setting off on a journey to uncover the truth and control your dark abilities...",
     "tags": [
-      "supernatural",
-      "found family",
-      "intense angst",
-      "magic",
-      "betrayal",
+      "jujutsu-sorcerer",
+      "supernatural romance",
       "redemption",
-      "moral ambiguity"
+      "mystery",
+      "urban fantasy",
+      "betrayal",
+      "hidden past"
     ]
   },
   {
-    "id": "543210",
-    "title": "The Phoenix's Embrace",
-    "intro": "In a world where guilt and grief intertwine, a fallen hero finds solace in the fiery embrace of a mysterious phoenix, leading him on a journey of self-discovery and redemption...",
+    "id": "587329",
+    "title": "Moonlit Masquerade",
+    "intro": "At the prestigious Celestia Academy, where royals and commoners clash, you find yourself entangled in a forbidden romance with a disguised prince, leading to a dangerous dance of secrets and seduction...",
     "tags": [
-      "supernatural",
-      "redemption",
-      "trauma healing",
+      "disguised royalty",
+      "academy life",
       "forbidden love",
       "supernatural beings",
-      "intense angst",
-      "epic conclusions"
+      "power imbalance",
+      "rival advances",
+      "court intrigue"
+    ]
+  },
+  {
+    "id": "246518",
+    "title": "Starfall Chronicles",
+    "intro": "Journey through the mystical land of Elyria as a guardian to a young heir, uncovering ancient prophecies and battling rival factions vying for control of the lost kingdom's power...",
+    "tags": [
+      "fantasy kingdom",
+      "rivalry",
+      "supernatural beings",
+      "legacy",
+      "reluctant guardian",
+      "epic adventure",
+      "magic"
+    ]
+  },
+  {
+    "id": "903463",
+    "title": "Cafe Supernova",
+    "intro": "In the quaint town of Moonlit Haven, you join the mystical Cafe Supernova where baristas brew more than coffee, navigating a slice-of-life world filled with supernatural patrons and brewing forbidden romances...",
+    "tags": [
+      "cafe slice-of-life",
+      "supernatural romance",
+      "hidden desires",
+      "found family",
+      "secrets",
+      "mystical cafe",
+      "contemporary fantasy"
+    ]
+  },
+  {
+    "id": "138725",
+    "title": "Stormbringer Saga",
+    "intro": "As a young underdog with latent powers, you must navigate the perilous trials of the Arena of Ascension to protect your found family, all while battling your inner demons and uncovering a dark conspiracy...",
+    "tags": [
+      "underdog",
+      "found family",
+      "redemption",
+      "rivalries",
+      "reluctant hero",
+      "supernatural powers",
+      "action-packed tournament"
+    ]
+  },
+  {
+    "id": "572134",
+    "title": "Blood Moon Redemption",
+    "intro": "In the cursed city of Nighthaven, you, a dominant protector with a haunted past, find yourself drawn to a mysterious vampire with a tragic history, leading to a forbidden romance that could either damn or redeem you both...",
+    "tags": [
+      "vampires",
+      "forbidden love",
+      "trauma healing",
+      "dominant protector",
+      "supernatural romance",
+      "moral exploration",
+      "dark past"
     ]
   }
 ]
