@@ -298,4 +298,21 @@ USER_3 = UserProfile(
         "achievement-hunting", "epic-conclusions", "morally-flexible",
         "leaderboard", "protective-sibling", "loyalty", "guilt"
     ]
-) 
+)
+
+def load_stories() -> List[Story]:
+    """
+    Load stories from file or generate new ones if file doesn't exist
+    """
+    try:
+        return load_stories_from_file()
+    except FileNotFoundError:
+        stories = generate_more_stories()
+        save_stories_to_file(stories)
+        return stories
+
+def load_user_profiles() -> Dict[str, UserProfile]:
+    """
+    Load user profiles from SAMPLE_USERS
+    """
+    return SAMPLE_USERS 

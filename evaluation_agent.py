@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from data import Story, UserProfile
 import numpy as np
 from collections import Counter
+import re
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -88,143 +89,159 @@ class EvaluationAgent:
     
     def get_ground_truth_recommendations(self, user_profile: UserProfile, num_recommendations: int = 10) -> List[str]:
         """
-        Get ground truth recommendations directly from the full user profile
+        Get ground truth recommendations using GPT-3.5-turbo
         """
-        # Get dynamic weights for this user
-        tag_weights = self._generate_dynamic_weights(user_profile)
+        # Prepare the stories for evaluation
+        stories_str = "\n".join([
+            f"ID: {story.id}\nTitle: {story.title}\nTags: {', '.join(story.tags)}\n"
+            for story in self.stories
+        ])
         
-        # Calculate story scores based on user preferences
-        story_scores = []
-        print("\nDetailed Scoring Analysis:")
-        print("-" * 50)
+        user_profile_str = f"""
+        User Preferences: {user_profile.preferences}
+        Interests: {', '.join(user_profile.interests)}
+        Favorite Anime: {', '.join(user_profile.favorite_anime)}
+        Preferred Tags: {', '.join(user_profile.preferred_tags)}
+        """
         
-        for story in self.stories:
-            score = 0
-            score_breakdown = []
-            
-            # Match with user's favorite anime
-            anime_score = 0
-            for anime in user_profile.favorite_anime:
-                if anime.lower() in story.title.lower() or any(anime.lower() in tag.lower() for tag in story.tags):
-                    anime_score += 2.0
-            if anime_score > 0:
-                score += anime_score
-                score_breakdown.append(f"Anime matches: +{anime_score}")
-            
-            # Match with user's preferred tags
-            tag_score = 0
-            matched_tags = []
-            for tag in user_profile.preferred_tags:
-                if tag.lower() in [t.lower() for t in story.tags]:
-                    weight = tag_weights.get(tag.lower(), 1.0)
-                    tag_score += weight
-                    matched_tags.append(tag)
-            if tag_score > 0:
-                score += tag_score
-                score_breakdown.append(f"Tag matches ({', '.join(matched_tags)}): +{tag_score:.1f}")
-            
-            # Match with user's interests
-            interest_score = 0
-            matched_interests = []
-            for interest in user_profile.interests:
-                if interest.lower() in story.title.lower() or any(interest.lower() in tag.lower() for tag in story.tags):
-                    interest_score += 1.5
-                    matched_interests.append(interest)
-            if interest_score > 0:
-                score += interest_score
-                score_breakdown.append(f"Interest matches ({', '.join(matched_interests)}): +{interest_score:.1f}")
-            
-            # Additional scoring for preferences
-            pref_score = 0
-            matched_prefs = []
-            for preference in user_profile.preferences:
-                if preference.lower() in story.title.lower() or any(preference.lower() in tag.lower() for tag in story.tags):
-                    pref_score += 1.8
-                    matched_prefs.append(preference)
-            if pref_score > 0:
-                score += pref_score
-                score_breakdown.append(f"Preference matches ({', '.join(matched_prefs)}): +{pref_score:.1f}")
-            
-            story_scores.append((story.id, score))
-            
-            if score > 0:
-                print(f"\nStory: {story.title} (ID: {story.id})")
-                print(f"Tags: {', '.join(story.tags)}")
-                print(f"Total Score: {score:.1f}")
-                for breakdown in score_breakdown:
-                    print(f"  {breakdown}")
+        prompt = f"""
+        You are an expert story recommendation evaluator. Your task is to select the most relevant stories for a user based on their profile.
         
-        # Sort by score and get top recommendations
-        story_scores.sort(key=lambda x: x[1], reverse=True)
+        User Profile:
+        {user_profile_str}
         
-        print("\nTop 10 Ground Truth Recommendations:")
-        print("-" * 50)
-        for story_id, score in story_scores[:10]:
-            story = next(s for s in self.stories if s.id == story_id)
-            print(f"{story.title} (ID: {story_id}) - Score: {score:.1f}")
+        Available Stories:
+        {stories_str}
         
-        return [story_id for story_id, _ in story_scores[:num_recommendations]]
+        Please select the top {num_recommendations} most relevant stories for this user based on:
+        1. How well they match the user's preferences and interests
+        2. How well they align with the user's favorite anime
+        3. How well they cover the user's preferred tags
+        4. The diversity and relevance of the recommendations
+        
+        Return ONLY the story IDs in order of relevance, separated by commas. Do not include any other text or formatting.
+        Example format: 123456, 234567, 345678
+        """
+        
+        try:
+            print(f"\nSending request to GPT with {len(self.stories)} stories...")
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are an expert story recommendation evaluator. Return ONLY the story IDs in a comma-separated list."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=150
+            )
+            
+            # Parse the response
+            content = response.choices[0].message.content.strip()
+            print(f"\nGPT Response: {content}")
+            
+            # Extract IDs using regex to handle various formats
+            recommended_ids = re.findall(r'\d+', content)
+            print(f"\nParsed IDs: {recommended_ids}")
+            
+            # Filter IDs to only those that exist in our stories
+            valid_ids = [id for id in recommended_ids if any(s.id == id for s in self.stories)]
+            print(f"\nValid IDs (found in stories): {valid_ids}")
+            
+            # Print the ground truth recommendations
+            print("\nGround Truth Recommendations:")
+            print("-" * 50)
+            for story_id in valid_ids[:10]:
+                story = next(s for s in self.stories if s.id == story_id)
+                print(f"{story.title} (ID: {story_id})")
+            
+            return valid_ids[:num_recommendations]
+            
+        except Exception as e:
+            print(f"Error in GPT ground truth generation: {str(e)}")
+            print(f"Error type: {type(e).__name__}")
+            if hasattr(e, 'response'):
+                print(f"API Response: {e.response}")
+            return []
     
-    def evaluate_recommendations(self, recommended_ids: List[str], ground_truth_ids: List[str], user_profile: UserProfile = None) -> Tuple[float, List[str]]:
+    def evaluate_recommendations(self, recommended_ids: List[str], ground_truth_ids: List[str], user_profile: UserProfile) -> Tuple[float, List[str]]:
         """
-        Evaluate recommendations against ground truth using multiple metrics
+        Evaluate recommendations using GPT-3.5-turbo
         Returns: (score, feedback)
         """
-        # Clean and normalize IDs
-        recommended_ids = [id.strip() for id in recommended_ids if id.strip()]
-        ground_truth_ids = [id.strip() for id in ground_truth_ids if id.strip()]
+        # Get the stories for evaluation
+        recommended_stories = [s for s in self.stories if s.id in recommended_ids]
+        ground_truth_stories = [s for s in self.stories if s.id in ground_truth_ids]
         
-        # Calculate precision@10
-        correct_recommendations = set(recommended_ids) & set(ground_truth_ids)
-        precision = len(correct_recommendations) / len(recommended_ids) if recommended_ids else 0
+        # Prepare the evaluation prompt
+        stories_str = "\n".join([
+            f"ID: {story.id}\nTitle: {story.title}\nTags: {', '.join(story.tags)}\n"
+            for story in recommended_stories
+        ])
         
-        # Calculate recall
-        recall = len(correct_recommendations) / len(ground_truth_ids) if ground_truth_ids else 0
+        ground_truth_str = "\n".join([
+            f"ID: {story.id}\nTitle: {story.title}\nTags: {', '.join(story.tags)}\n"
+            for story in ground_truth_stories
+        ])
         
-        # Calculate F1 score
-        f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+        user_profile_str = f"""
+        User Preferences: {user_profile.preferences}
+        Interests: {', '.join(user_profile.interests)}
+        Favorite Anime: {', '.join(user_profile.favorite_anime)}
+        Preferred Tags: {', '.join(user_profile.preferred_tags)}
+        """
         
-        # Generate detailed feedback
-        feedback = []
+        prompt = f"""
+        You are an expert story recommendation evaluator. Your task is to evaluate how well the recommended stories match the user's profile and preferences.
         
-        if precision < 0.5:
-            feedback.append("The recommendations have low precision. Consider better matching user preferences.")
-        if recall < 0.5:
-            feedback.append("The recommendations are missing many relevant stories. Consider broader matching criteria.")
+        User Profile:
+        {user_profile_str}
         
-        # Check for diversity
-        unique_recommendations = len(set(recommended_ids))
-        if unique_recommendations < len(recommended_ids):
-            feedback.append("There are duplicate recommendations. Ensure each story is recommended only once.")
+        Recommended Stories:
+        {stories_str}
         
-        if user_profile:
-            # Get dynamic weights for this user
-            tag_weights = self._generate_dynamic_weights(user_profile)
+        Ground Truth Stories (what the user should ideally like):
+        {ground_truth_str}
+        
+        Please evaluate the recommendations based on:
+        1. How well they match the user's preferences and interests
+        2. How well they align with the user's favorite anime
+        3. How well they cover the user's preferred tags
+        4. The diversity and relevance of the recommendations
+        
+        Provide:
+        1. A score between 0 and 1 (1 being perfect match)
+        2. Detailed feedback on what worked well and what could be improved
+        3. Specific suggestions for better recommendations
+        
+        Format your response as:
+        Score: [number between 0 and 1]
+        Feedback:
+        - [detailed feedback point 1]
+        - [detailed feedback point 2]
+        ...
+        """
+        
+        try:
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are an expert story recommendation evaluator."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=500
+            )
             
-            # Check for relevance to user's favorite anime
-            recommended_stories = [s for s in self.stories if s.id in recommended_ids]
-            anime_matches = sum(1 for story in recommended_stories 
-                              if any(anime.lower() in story.title.lower() or 
-                                    any(anime.lower() in tag.lower() for tag in story.tags)
-                                    for anime in user_profile.favorite_anime))
-            if anime_matches < 3:
-                feedback.append("Consider including more stories related to the user's favorite anime.")
+            # Parse the response
+            content = response.choices[0].message.content
+            score_line = [line for line in content.split('\n') if line.startswith('Score:')][0]
+            score = float(score_line.split(':')[1].strip())
             
-            # Check for tag coverage with dynamic weights
-            user_tags = set(tag.lower() for tag in user_profile.preferred_tags)
-            story_tags = set(tag.lower() for story in recommended_stories for tag in story.tags)
-            tag_coverage = len(user_tags & story_tags) / len(user_tags) if user_tags else 0
-            if tag_coverage < 0.5:
-                feedback.append("The recommendations could better cover the user's preferred tags.")
+            feedback_lines = [line.strip('- ') for line in content.split('\n') 
+                            if line.startswith('-')]
             
-            # Check for preference coverage
-            user_preferences = set(pref.lower() for pref in user_profile.preferences)
-            story_preferences = set(pref.lower() for story in recommended_stories 
-                                  for pref in user_profile.preferences 
-                                  if pref.lower() in story.title.lower() or 
-                                  any(pref.lower() in tag.lower() for tag in story.tags))
-            pref_coverage = len(story_preferences) / len(user_preferences) if user_preferences else 0
-            if pref_coverage < 0.5:
-                feedback.append("The recommendations could better match the user's preferences.")
-        
-        return f1_score, feedback 
+            return score, feedback_lines
+            
+        except Exception as e:
+            print(f"Error in GPT evaluation: {str(e)}")
+            return 0.0, ["Error in evaluation. Please try again."] 
