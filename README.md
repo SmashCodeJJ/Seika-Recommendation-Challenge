@@ -9,11 +9,15 @@ A multi-agent recommendation system that learns to recommend the right stories t
 pip install -r requirements.txt
 
 # 2. Set up your OpenAI API key
+# Create a .env file in the project root and add your OpenAI API key:
 echo "OPENAI_API_KEY=your_api_key_here" > .env
+# Replace 'your_api_key_here' with your actual OpenAI API key
 
 # 3. Run the demo
 python main.py
 ```
+
+Note: Never commit your `.env` file containing the API key to version control. The `.env` file is already in `.gitignore` to prevent accidental commits.
 
 ## Architecture & Agent Roles
 
