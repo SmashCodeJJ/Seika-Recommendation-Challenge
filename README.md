@@ -19,6 +19,12 @@ python main.py
 
 Note: Never commit your `.env` file containing the API key to version control. The `.env` file is already in `.gitignore` to prevent accidental commits.
 
+## Important Note
+This project requires OpenAI Python SDK version 0.28.0. The newer versions (1.0.0+) are not compatible with the current implementation. If you encounter any API-related errors, please ensure you're using the correct version:
+```bash
+pip install openai==0.28.0
+```
+
 ## Video Walkthrough
 
 For a detailed explanation of the system architecture and implementation, check out our video walkthrough:
@@ -130,11 +136,11 @@ Key Findings:
 - Consistent performance across iterations
 - Areas for improvement in direct anime references and character depth
 
-### User 2
+### User 2 (Latest Results)
 | Iteration | F1 Score | Precision | Recall | Time (s) |
 |-----------|----------|-----------|---------|-----------|
-| 0         | 0.75     | 0.73      | 0.77    | 1.3       |
-| 1         | 0.75     | 0.73      | 0.77    | 1.2       |
+| 0         | 0.65     | 0.63      | 0.67    | 1.2       |
+| 1         | 0.65     | 0.63      | 0.67    | 1.1       |
 | 2         | 0.75     | 0.73      | 0.77    | 1.1       |
 | 3         | 0.75     | 0.73      | 0.77    | 1.1       |
 | 4         | 0.75     | 0.73      | 0.77    | 1.0       |
@@ -144,6 +150,7 @@ Key Findings:
 - Good balance of settings (academies, fantasy kingdoms)
 - Effective matching of reluctant guardianship themes
 - Room for improvement in anime references (Re:Zero, Naruto, My Hero Academia)
+- Consistent performance across iterations with a peak F1 score of 0.75
 
 ### User 3
 | Iteration | F1 Score | Precision | Recall | Time (s) |
