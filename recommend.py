@@ -19,7 +19,7 @@ def main():
     ground_truth_ids = evaluation_agent.get_ground_truth_recommendations(SAMPLE_USER)
     
     # Set optimization parameters
-    target_score = 0.8
+    target_score = 0.95
     time_budget_minutes = 10
     max_iterations = 15
     
