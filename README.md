@@ -14,7 +14,7 @@ echo "OPENAI_API_KEY=your_api_key_here" > .env
 # Replace 'your_api_key_here' with your actual OpenAI API key
 
 # 3. Run the demo
-python main.py
+python3 main.py # if it doesn't work try "python main.py"
 ```
 
 Note: Never commit your `.env` file containing the API key to version control. The `.env` file is already in `.gitignore` to prevent accidental commits.

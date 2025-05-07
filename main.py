@@ -462,7 +462,7 @@ def main():
     best_prompt, best_score = prompt_optimizer.optimize_prompt(
         target_score=0.95,
         time_budget_minutes=5,
-        max_iterations=5
+        max_iterations=10
     )
     end_time = time.time()
     
