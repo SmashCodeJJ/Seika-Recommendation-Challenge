@@ -19,6 +19,11 @@ python main.py
 
 Note: Never commit your `.env` file containing the API key to version control. The `.env` file is already in `.gitignore` to prevent accidental commits.
 
+## Video Walkthrough
+
+For a detailed explanation of the system architecture and implementation, check out our video walkthrough:
+[![Video Walkthrough](https://img.youtube.com/vi/Dusq4iI8CkU/0.jpg)](https://youtu.be/Dusq4iI8CkU)
+
 ## Architecture & Agent Roles
 
 ### Core Components
